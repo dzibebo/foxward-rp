@@ -3125,7 +3125,697 @@
         "substitution": "pufferfish_toy",
         "matchAll": true,
         "validate": false
+      },
+      {
+        "regex": "(?iu)табурет",
+        "substitution": "tables/stool",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)правый край елового стола",
+        "substitution": "tables/spruce_table_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина елового стола",
+        "substitution": "tables/spruce_table_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край елового стола",
+        "substitution": "tables/spruce_table_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)край елового стола",
+        "substitution": "tables/spruce_table_edge",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)угол елового стола",
+        "substitution": "tables/spruce_table_corner",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)центр елового стола",
+        "substitution": "tables/spruce_table_center",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)еловый стол",
+        "substitution": "tables/spruce_table",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)правый край елового дивана",
+        "substitution": "tables/spruce_couch_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина елового дивана",
+        "substitution": "tables/spruce_couch_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край елового дивана",
+        "substitution": "tables/spruce_couch_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)еловый стул",
+        "substitution": "tables/spruce_chair",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)еловое кресло",
+        "substitution": "tables/spruce_armchair",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)маленький еловый стол",
+        "substitution": "tables/small_spruce_table",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)маленький дубовый стол",
+        "substitution": "tables/small_oak_table",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)маленький стол из мангрового дерева",
+        "substitution": "tables/small_mangrove_table",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)маленький стол из тропического дерева",
+        "substitution": "tables/small_jungle_table",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)маленький железный стол",
+        "substitution": "tables/small_iron_table",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)маленький стол из темного дуба",
+        "substitution": "tables/small_dark_oak_table",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)маленький березовый стол",
+        "substitution": "tables/small_birch_table",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)маленький стол из акации",
+        "substitution": "tables/small_acacia_table",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край дубового стола",
+        "substitution": "tables/oak_table_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина дубового стола",
+        "substitution": "tables/oak_table_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край дубового стола",
+        "substitution": "tables/oak_table_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)край дубового стола",
+        "substitution": "tables/oak_table_edge",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)угол дубового стола",
+        "substitution": "tables/oak_table_corner",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)центр дубового стола",
+        "substitution": "tables/oak_table_center",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)дубовый стол",
+        "substitution": "tables/oak_table",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край дубового дивана",
+        "substitution": "tables/oak_couch_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина дубового дивана",
+        "substitution": "tables/oak_couch_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край дубового дивана",
+        "substitution": "tables/oak_couch_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)дубовый стул",
+        "substitution": "tables/oak_chair",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)дубовое кресло",
+        "substitution": "tables/oak_armchair",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край стола из мангрового дерева",
+        "substitution": "tables/mangrove_table_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина стола из мангрового дерева",
+        "substitution": "tables/mangrove_table_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край стола из мангрового дерева",
+        "substitution": "tables/mangrove_table_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)край стола из мангрового дерева",
+        "substitution": "tables/mangrove_table_edge",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)угол стола из мангрового дерева",
+        "substitution": "tables/mangrove_table_corner",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)центр стола из мангрового дерева",
+        "substitution": "tables/mangrove_table_center",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)стол из мангрового дерева",
+        "substitution": "tables/mangrove_table",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край дивана из мангрового дерева",
+        "substitution": "tables/mangrove_couch_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина дивана из мангрового дерева",
+        "substitution": "tables/mangrove_couch_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край дивана из мангрового дерева",
+        "substitution": "tables/mangrove_couch_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)стул из мангрового дерева",
+        "substitution": "tables/mangrove_chair",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)кресло из мангрового дерева",
+        "substitution": "tables/mangrove_armchair",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край стола из тропического дерева",
+        "substitution": "tables/jungle_table_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина стола из тропического дерева",
+        "substitution": "tables/jungle_table_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край стола из тропического дерева",
+        "substitution": "tables/jungle_table_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)край стола из тропического дерева",
+        "substitution": "tables/jungle_table_edge",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)угол стола из тропического дерева",
+        "substitution": "tables/jungle_table_corner",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)центр стола из тропического дерева",
+        "substitution": "tables/jungle_table_center",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)стол из тропического дерева",
+        "substitution": "tables/jungle_table",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край дивана из тропического дерева",
+        "substitution": "tables/jungle_couch_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина дивана из тропического дерева",
+        "substitution": "tables/jungle_couch_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край дивана из тропического дерева",
+        "substitution": "tables/jungle_couch_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)стул из тропического дерева",
+        "substitution": "tables/jungle_chair",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)кресло из тропического дерева",
+        "substitution": "tables/jungle_armchair",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край железного стола",
+        "substitution": "tables/iron_table_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина железного стола",
+        "substitution": "tables/iron_table_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край железного стола",
+        "substitution": "tables/iron_table_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)край железного стола",
+        "substitution": "tables/iron_table_edge",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)угол железного стола",
+        "substitution": "tables/iron_table_corner",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)центр железного стола",
+        "substitution": "tables/iron_table_center",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)железный стол",
+        "substitution": "tables/iron_table",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край железного дивана",
+        "substitution": "tables/iron_couch_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина железного дивана",
+        "substitution": "tables/iron_couch_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край железного дивана",
+        "substitution": "tables/iron_couch_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)железный стул",
+        "substitution": "tables/iron_chair",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)железное кресло",
+        "substitution": "tables/iron_armchair",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)перевернутый край елового стола",
+        "substitution": "tables/inverted_spruce_table_edge",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)перевернутый угол елового стола",
+        "substitution": "tables/inverted_spruce_table_corner",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)перевернутый край стола из акации",
+        "substitution": "tables/inverted_acacia_table_edge",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)перевернутый угол стола из акации",
+        "substitution": "tables/inverted_acacia_table_corner",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край стола из темного дуба",
+        "substitution": "tables/dark_oak_table_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина стола из темного дуба",
+        "substitution": "tables/dark_oak_table_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край стола из темного дуба",
+        "substitution": "tables/dark_oak_table_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)край стола из темного дуба",
+        "substitution": "tables/dark_oak_table_edge",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)угол стола из темного дуба",
+        "substitution": "tables/dark_oak_table_corner",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)центр стола из темного дуба",
+        "substitution": "tables/dark_oak_table_center",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)стол из темного дуба",
+        "substitution": "tables/dark_oak_table",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край дивана из темного дуба",
+        "substitution": "tables/dark_oak_couch_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина дивана из темного дуба",
+        "substitution": "tables/dark_oak_couch_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край дивана из темного дуба",
+        "substitution": "tables/dark_oak_couch_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)стул из темного дуба",
+        "substitution": "tables/dark_oak_chair",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)кресло из темного дуба",
+        "substitution": "tables/dark_oak_armchair",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край березового стола",
+        "substitution": "tables/birch_table_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина березового стола",
+        "substitution": "tables/birch_table_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край березового стола",
+        "substitution": "tables/birch_table_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)край березового стола",
+        "substitution": "tables/birch_table_edge",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)угол березового стола",
+        "substitution": "tables/birch_table_corner",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)центр березового стола",
+        "substitution": "tables/birch_table_center",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)березовый стол",
+        "substitution": "tables/birch_table",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край березового дивана",
+        "substitution": "tables/birch_couch_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина березового дивана",
+        "substitution": "tables/birch_couch_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край березового дивана",
+        "substitution": "tables/birch_couch_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)березовый стул",
+        "substitution": "tables/birch_chair",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)березовое кресло",
+        "substitution": "tables/birch_armchair",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край скамейки",
+        "substitution": "tables/bench_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина скамейки",
+        "substitution": "tables/bench_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край скамейки",
+        "substitution": "tables/bench_left",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край стола из акации",
+        "substitution": "tables/acacia_table_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина стола из акации",
+        "substitution": "tables/acacia_table_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край стола из акации",
+        "substitution": "tables/acacia_table_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)край стола из акации",
+        "substitution": "tables/acacia_table_edge",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)угол стола из акации",
+        "substitution": "tables/acacia_table_corner",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)центр стола из акации",
+        "substitution": "tables/acacia_table_center",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)стол из акации",
+        "substitution": "tables/acacia_table",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)правый край дивана из акации",
+        "substitution": "tables/acacia_couch_right",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)середина дивана из акации",
+        "substitution": "tables/acacia_couch_middle",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)левый край дивана из акации",
+        "substitution": "tables/acacia_couch_left",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)стул из акации",
+        "substitution": "tables/acacia_chair",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)кресло из акации",
+        "substitution": "tables/acacia_armchair",
+        "matchAll": true,
+        "validate": false
       }
+
+
     ]
   }
 }

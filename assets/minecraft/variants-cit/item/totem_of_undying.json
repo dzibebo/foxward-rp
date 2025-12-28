@@ -231,13 +231,13 @@
         "validate": false
       },
       {
-        "regex": "(?iu)шмегуля",
+        "regex": "(?iu)алекс фьючер",
         "substitution": "minrik_scd",
         "matchAll": true,
         "validate": false
       },
       {
-        "regex": "(?iu)алекс фьючер",
+        "regex": "(?iu)шмегуля",
         "substitution": "shmegula",
         "matchAll": true,
         "validate": false
@@ -287,6 +287,96 @@
       {
         "regex": "(?i)макима",
         "substitution": "makima",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)старый нептун",
+        "substitution": "mrperdun",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta джокер",
+        "substitution": "paxabsoluta_joper",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta tiktok",
+        "substitution": "paxabsoluta_tikcock",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta фараон",
+        "substitution": "paxabsoluta_faraoh",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta хеллоуин",
+        "substitution": "paxabsoluta_halloween",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta гоблин-копейщик",
+        "substitution": "paxabsoluta_narek",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta эндер",
+        "substitution": "paxabsoluta_ender",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta санта",
+        "substitution": "paxabsoluta_santa",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)санта нептун",
+        "substitution": "santa_mrneptun",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)новогодний нептун",
+        "substitution": "novogodniy_mrneptun",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta шут",
+        "substitution": "paxabsoluta_irl",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta с ушками",
+        "substitution": "paxabsoluta_ear",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta шут alt",
+        "substitution": "paxabsoluta_irl_alt",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)бизнесмен \\(без нептуна\\)",
+        "substitution": "biznesman_mrneptun",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)лесопилка",
+        "substitution": "pechenka123451",
         "matchAll": true,
         "validate": false
       },
