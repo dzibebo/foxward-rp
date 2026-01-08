@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/repeating_command_block",
+
+		"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, 18],
+			"scale": [2.0001, 2.0001, 2.0001]
+		}
+	}
+		}
+}

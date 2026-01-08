@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/snowball/sprites/rotten_tomato"
+        },
+        "when": [
+          "gui"
+
+        ]
+      },{
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/snowball/sprites/rotten_tomato2"
+        },
+        "when": [
+          "ground"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/snowball/rotten_tomato"
+    },
+    "property": "minecraft:display_context"
+  }
+}
