@@ -113,6 +113,15 @@
 			}
 		]
 	},
+	"msonuds.nisheta": {
+		"category": "master",
+		"sounds": [
+			{
+				"name": "nisheta",
+				"stream": true
+			}
+		]
+	},
 	"msonuds.ring": {
 		"category": "master",
 		"sounds": [
