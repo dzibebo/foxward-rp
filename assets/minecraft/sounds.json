@@ -104,6 +104,15 @@
 			}
 		]
 	},
+	"msonuds.minuta": {
+		"category": "master",
+		"sounds": [
+			{
+				"name": "minuta",
+				"stream": true
+			}
+		]
+	},
 	"msonuds.ring": {
 		"category": "master",
 		"sounds": [
@@ -186,6 +195,10 @@
 			},
 			{
 				"name": "randomsound/randomsound13",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound14",
 				"stream": true
 			}
 		]
