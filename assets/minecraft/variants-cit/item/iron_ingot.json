@@ -3121,7 +3121,13 @@
         "validate": false
       },
       {
-        "regex": "(?iu)Игрушка фугу",
+        "regex": "(?iu)игрушка фугу",
+        "substitution": "pufferfish_toy",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)еблобрюх игрушка",
         "substitution": "pufferfish_toy",
         "matchAll": true,
         "validate": false
@@ -3575,7 +3581,7 @@
       },
 
       {
-        "regex": "(?iu)правый край стола из темного дуба",
+        "regex": "(?iu)",
         "substitution": "tables/dark_oak_table_right",
         "matchAll": true,
         "validate": false

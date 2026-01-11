@@ -846,6 +846,34 @@
 			"ascent": 7,
 			"height": 9,
 			"chars": ["\u2807"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/foxicons/purchase/femboy.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\u2808"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/foxicons/purchase/weisshafen.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\u2809"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/foxicons/purchase/emperor.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\u280A"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/foxicons/purchase/mkh.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\u280B"]
 		}
 	]
 }

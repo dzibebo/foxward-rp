@@ -381,6 +381,42 @@
         "validate": false
       },
       {
+        "regex": "(?i)лесопилка 2",
+        "substitution": "lesopilka_2",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)шарк",
+        "substitution": "mrshark",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)лика",
+        "substitution": "lika",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)раздатчик",
+        "substitution": "dispenser",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)вайтик",
+        "substitution": "whityk",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)раздатчик",
+        "substitution": "dispenser",
+        "matchAll": true,
+        "validate": false
+      },
+      {
         "regex": "(?iu) ",
         "substitution": "_",
         "matchAll": false,
