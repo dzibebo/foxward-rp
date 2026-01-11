@@ -104,6 +104,15 @@
 			}
 		]
 	},
+	"msonuds.blyamimo": {
+		"category": "master",
+		"sounds": [
+			{
+				"name": "blyamimo",
+				"stream": true
+			}
+		]
+	},
 	"msonuds.minuta": {
 		"category": "master",
 		"sounds": [
