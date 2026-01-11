@@ -77,6 +77,154 @@
 			}
 		]
 	},
+	"msonuds.applepay": {
+		"category": "master",
+		"sounds": [
+			{
+				"name": "applepay",
+				"stream": true
+			}
+		]
+	},
+	"msonuds.ooeee": {
+		"category": "master",
+		"sounds": [
+			{
+				"name": "ooeee",
+				"stream": true
+			}
+		]
+	},
+	"msonuds.zov": {
+		"category": "master",
+		"sounds": [
+			{
+				"name": "zov",
+				"stream": true
+			}
+		]
+	},
+	"msonuds.blyamimo": {
+		"category": "master",
+		"sounds": [
+			{
+				"name": "blyamimo",
+				"stream": true
+			}
+		]
+	},
+	"msonuds.minuta": {
+		"category": "master",
+		"sounds": [
+			{
+				"name": "minuta",
+				"stream": true
+			}
+		]
+	},
+	"msonuds.nisheta": {
+		"category": "master",
+		"sounds": [
+			{
+				"name": "nisheta",
+				"stream": true
+			}
+		]
+	},
+	"msonuds.ring": {
+		"category": "master",
+		"sounds": [
+			{
+				"name": "ring/ring1",
+				"stream": true
+			},
+			{
+				"name": "ring/ring2",
+				"stream": true
+			},
+			{
+				"name": "ring/ring3",
+				"stream": true
+			},
+			{
+				"name": "ring/ring4",
+				"stream": true
+			},
+			{
+				"name": "ring/ring5",
+				"stream": true
+			},
+			{
+				"name": "ring/ring6",
+				"stream": true
+			},
+			{
+				"name": "ring/ring7",
+				"stream": true
+			}
+		]
+	},
+	"msonuds.randomsound": {
+		"category": "master",
+		"sounds": [
+			{
+				"name": "randomsound/randomsound1",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound2",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound3",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound4",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound5",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound6",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound7",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound8",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound9",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound10",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound11",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound12",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound13",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound14",
+				"stream": true
+			}
+		]
+	},
 	"msonuds.backtothefuture": {
 		"category": "master",
 		"sounds": [
