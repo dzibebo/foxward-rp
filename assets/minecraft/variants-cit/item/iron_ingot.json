@@ -3581,7 +3581,7 @@
       },
 
       {
-        "regex": "(?iu)",
+        "regex": "(?iu)правый край дивана из темного дуба",
         "substitution": "tables/dark_oak_table_right",
         "matchAll": true,
         "validate": false
