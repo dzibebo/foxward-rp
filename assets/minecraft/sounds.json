@@ -157,6 +157,10 @@
 			{
 				"name": "ring/ring6",
 				"stream": true
+			},
+			{
+				"name": "ring/ring7",
+				"stream": true
 			}
 		]
 	},
