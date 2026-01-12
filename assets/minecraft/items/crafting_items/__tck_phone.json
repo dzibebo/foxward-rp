@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/crafting_items/sprites/tck_phone"
+        },
+        "when": [
+          "ground",
+		   "gui"
+        ]
+      },
+	  {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/crafting_items/__tck_phone_on"
+        },
+        "when": [
+          "firstperson_righthand",
+		  		   "thirdperson_righthand"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/crafting_items/__tck_phone"
+    },
+    "property": "minecraft:display_context"
+  }
+}

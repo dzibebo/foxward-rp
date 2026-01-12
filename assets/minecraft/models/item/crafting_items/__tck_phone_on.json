@@ -1,0 +1,6 @@
+{
+  "parent": "item/crafting_items/__tck_phone",
+  "textures": {
+    "2": "item/crafting_items/tck_phone_on"
+  }
+}
