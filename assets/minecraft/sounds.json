@@ -29,6 +29,10 @@
 			{
 				"name": "restart/sound7",
 				"stream": true
+			},
+			{
+				"name": "restart/sound8",
+				"stream": true
 			}
 		]
 	},
@@ -161,6 +165,26 @@
 			{
 				"name": "ring/ring7",
 				"stream": true
+			},
+			{
+				"name": "ring/ring8",
+				"stream": true
+			},
+			{
+				"name": "ring/ring9",
+				"stream": true
+			},
+			{
+				"name": "ring/ring10",
+				"stream": true
+			},
+			{
+				"name": "ring/ring11",
+				"stream": true
+			},
+			{
+				"name": "ring/ring12",
+				"stream": true
 			}
 		]
 	},
@@ -221,6 +245,26 @@
 			},
 			{
 				"name": "randomsound/randomsound14",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound15",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound16",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound17",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound18",
+				"stream": true
+			},
+			{
+				"name": "randomsound/randomsound19",
 				"stream": true
 			}
 		]
