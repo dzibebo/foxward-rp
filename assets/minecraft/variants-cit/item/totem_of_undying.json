@@ -417,6 +417,12 @@
         "validate": false
       },
       {
+        "regex": "(?i)фембой",
+        "substitution": "femboy",
+        "matchAll": true,
+        "validate": false
+      },
+      {
         "regex": "(?iu) ",
         "substitution": "_",
         "matchAll": false,
