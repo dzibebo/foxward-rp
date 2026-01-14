@@ -36,11 +36,35 @@
 			}
 		]
 	},
-	"msonuds.seagull_event": {
+	"msonuds.seagull": {
 		"category": "master",
 		"sounds": [
 			{
 				"name": "event/seagull",
+				"stream": true
+			},
+			{
+				"name": "event/seagull1",
+				"stream": true
+			},
+			{
+				"name": "event/seagull2",
+				"stream": true
+			},
+			{
+				"name": "event/seagull3",
+				"stream": true
+			},
+			{
+				"name": "event/seagull4",
+				"stream": true
+			},
+			{
+				"name": "event/seagull5",
+				"stream": true
+			},
+			{
+				"name": "event/seagull6",
 				"stream": true
 			}
 		]
