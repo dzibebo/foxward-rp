@@ -1,10 +1,8 @@
 {
-  "pack": {
-    "pack_format": 81,
-    "description": "§dᴄдᴇлᴀʜᴏ для игᴘᴏᴋᴏʙ ꜰᴏxᴡᴀʀᴅ      §8ᴠᴇʀꜱɪᴏɴ: 4.9.7",
-    "supported_formats": {
-      "min_inclusive": 1,
-      "max_inclusive": 999
+    "pack": {
+        "min_format": 75,
+        "max_format": 999,
+		"pack_format": 64,
+        "description": "§6• version 4.9.8\n§c• for foxward server"
     }
-  }
 }
