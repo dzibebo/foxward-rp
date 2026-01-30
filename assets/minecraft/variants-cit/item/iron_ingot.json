@@ -2804,6 +2804,48 @@
         "validate": false
       },
       {
+        "regex": "(?iu)навесной флаг мобиании",
+        "substitution": "mobiania_wall_flag",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)флаг мобиании",
+        "substitution": "mobiania_flag",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)петрозаводску похуй, помним",
+        "substitution": "pohui_no_pohui",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)петрозаводску пока также похуй",
+        "substitution": "pohui_no_pohui_2",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)петрозаводску все еще похуй",
+        "substitution": "pohui_no_pohui_3",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)да запомните уже, похуй петрозаводску",
+        "substitution": "pohui_no_pohui_all",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)настенный флаг мобиании",
+        "substitution": "mobiania_flag_ves",
+        "matchAll": true,
+        "validate": false
+      },
+      {
         "regex": "(?iu)навесной флаг weißhafen alt",
         "substitution": "weishafen_wall_flag_alt",
         "matchAll": true,

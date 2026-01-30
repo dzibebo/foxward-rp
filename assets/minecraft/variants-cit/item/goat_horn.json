@@ -13,9 +13,16 @@
         "substitution": "е",
         "matchAll": false,
         "validate": false
-      },{
+      },
+      {
         "regex": "(?iu)поддержка батальона",
         "substitution": "battalion_backup",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)ангельский яйце-хруст",
+        "substitution": "super_horn",
         "matchAll": true,
         "validate": false
       },

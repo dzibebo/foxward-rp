@@ -1,0 +1,59 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [24, 12],
+	"textures": {
+		"1": "item/iron_ingot/pohui"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 24, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 5.33333, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 5.33333, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 5.33333, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 5.33333, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 5.33333, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 5.33333, 16], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-15, 0, 0],
+			"translation": [0, 3.25, 2.25],
+			"scale": [0.36133, 0.36133, 0.36133]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-15, 0, 0],
+			"translation": [0, 3.25, 2.25],
+			"scale": [0.36133, 0.36133, 0.36133]
+		},
+		"firstperson_righthand": {
+			"rotation": [-16.78, -26.46, -7.71],
+			"translation": [0, 3.25, 2.25],
+			"scale": [0.36133, 0.36133, 0.36133]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-16.78, -26.46, -7.71],
+			"translation": [0, 3.25, 2.25],
+			"scale": [0.36133, 0.36133, 0.36133]
+		},
+		"ground": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 4.25, 3.5]
+		},
+		"gui": {
+			"translation": [0, -2.25, 0],
+			"scale": [0.51953, 0.51953, 0.51953]
+		},
+		"head": {
+			"translation": [0, -3.75, 0.75]
+		},
+		"fixed": {
+			"translation": [0, -8, 16.75],
+			"scale": [2, 2, 2]
+		}
+	}
+}
