@@ -159,6 +159,15 @@
 			}
 		]
 	},
+	"msonuds.night": {
+		"category": "master",
+		"sounds": [
+			{
+				"name": "night",
+				"stream": true
+			}
+		]
+	},
 	"msonuds.ring": {
 		"category": "master",
 		"sounds": [
@@ -289,6 +298,26 @@
 			},
 			{
 				"name": "randomsound/randomsound19",
+				"stream": true
+			},
+			{
+				"name": "randomsound/ring13",
+				"stream": true
+			},
+			{
+				"name": "randomsound/ring14",
+				"stream": true
+			},
+			{
+				"name": "randomsound/ring15",
+				"stream": true
+			},
+			{
+				"name": "randomsound/ring16",
+				"stream": true
+			},
+			{
+				"name": "randomsound/ring17",
 				"stream": true
 			}
 		]
