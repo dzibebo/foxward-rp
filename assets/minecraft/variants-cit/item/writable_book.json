@@ -9,10 +9,6 @@
   "modelPrefix": "item/written_book/",
   "modelParent": "minecraft:item/generated",
   "parameters": {
-    "componentType": "custom_name",
-    "expect": "rich_text",
-    "debug": true,
-    "transform": ["lowercase",
       {
         "regex": "(?iu)ё",
         "substitution": "е",
@@ -191,7 +187,7 @@
         "substitution": "license",
         "matchAll": true,
         "validate": false
-      },
+      }
       {
         "regex": "(?iu)подписанная лицензия",
         "substitution": "license_in_frame",

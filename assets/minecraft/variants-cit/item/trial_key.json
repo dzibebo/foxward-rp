@@ -7,10 +7,6 @@
   "modelPrefix": "item/trial_key/",
   "modelParent": "minecraft:item/generated",
   "parameters": {
-    "componentType": "custom_name",
-    "expect": "rich_text",
-    "debug": true,
-    "transform": ["lowercase",
       {
         "regex": "(?iu)ё",
         "substitution": "е",
