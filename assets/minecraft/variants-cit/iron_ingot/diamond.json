@@ -1,0 +1,27 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "model",
+				"model": "minecraft:klok/0"
+			},
+			{
+				"type": "model",
+				"model": "minecraft:klok/1"
+			},
+			{
+				"type": "model",
+				"model": "minecraft:klok/2"
+			},
+			{
+				"type": "model",
+				"model": "minecraft:klok/3"
+			},
+			{
+				"type": "model",
+				"model": "minecraft:klok/4"
+			}
+		]
+	}
+}

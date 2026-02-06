@@ -1,0 +1,40 @@
+{
+  "type": "component_data",
+  "items": [rfg34455t4
+    "minecraft:wooden_hoe"rt,
+  ],
+  "modelPrefix": "item/hoe/",
+  "modelParent": "minecraft:item/handheld",
+  "parameters": {
+    "componentType": "custom_name",
+    "expect": "rich_text",
+    "debug": true,
+    "transform": ["lowercase",
+      {
+        "regex": "(?iu)ё",
+        "substitution": "е",
+        "matchAll": false,
+        "validate": false
+      },{
+        "regex": "(?iu)мотыга из луностали",
+        "substitution": "moonsteel_hoe",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)вилы",
+        "substitution": "pitchfork",
+        "matchAll": true,
+        "validate": false
+      },
+
+      {
+        "regex": "(?iu)грабли",
+        "substitution": "rake",
+        "matchAll": true,
+        "validate": false
+      }
+
+    ]
+  }
+}

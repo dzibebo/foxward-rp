@@ -1,0 +1,433 @@
+{
+  "type": "component_data",
+  "items": "minecraft:totem_of_undying",
+  "modelPrefix": "item/totem_of_undying/",
+  "modelParent": "minecraft:item/generated",
+  "parameters": {
+    "componentType": "custom_name",
+    "expect": "rich_text",
+    "debug": true,
+    "transform": ["lowercase",
+      {
+        "regex": "(?iu)ё",
+        "substitution": "е",
+        "matchAll": false,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)живой тотем",
+        "substitution": "live_totem",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)темный живой тотем",
+        "substitution": "live_totem_dark",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)серебрянный живой тотем",
+        "substitution": "live_totem_silver",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)еловый живой тотем",
+        "substitution": "live_totem_spruce",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)sfefs голи",
+        "substitution": "sfefses",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)маква",
+        "substitution": "makwa",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)файт не удафся",
+        "substitution": "ralfi",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)файт не удафся1",
+        "substitution": "lizard87",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)файт не удафся2",
+        "substitution": "coramin",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)сайт не удался",
+        "substitution": "ralfi",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)сайт не удался1",
+        "substitution": "lizard87",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)сайт не удался2",
+        "substitution": "coramin",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)шайт не удауся",
+        "substitution": "ralfi",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)нейтралка",
+        "substitution": "ne1tralka",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)нейтрал гоп стоп",
+        "substitution": "ne1tral_gop_stop",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)нейтралка в купальнике",
+        "substitution": "ne1tralka_kupalnik",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)нейтрал нью",
+        "substitution": "ne1tral_new",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)нейтрал oффицант",
+        "substitution": "ne1tral_officant",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)нейтрал депутат",
+        "substitution": "ne1tral_deputat",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)пошел нахуй",
+        "substitution": "ne1tral_deputat",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)никита говновоз",
+        "substitution": "koziki_roga",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)чай",
+        "substitution": "tea_bobr",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)шар наблюдателя",
+        "substitution": "magiccamera",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)раком-саком",
+        "substitution": "_mazr_",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)бенжи школьник",
+        "substitution": "benji_school",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)раком-встал",
+        "substitution": "_mazr_",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)я заебался",
+        "substitution": "ovotarich",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)sfefses цветной",
+        "substitution": "sfefses_color",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)игрушка адама",
+        "substitution": "adam",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)пушистик",
+        "substitution": "fluffy",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)фамоха",
+        "substitution": "famohe",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)фамоха в платье",
+        "substitution": "famohe_platie",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)кирилл сегун",
+        "substitution": "kirill_nos_",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)кирюшка",
+        "substitution": "kirill_nos",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)купитмашка",
+        "substitution": "kirill_nos",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)деловой_caxarok",
+        "substitution": "delovoi_caxarok",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)алекс фьючер",
+        "substitution": "minrik_scd",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)шмегуля",
+        "substitution": "shmegula",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)bruh momento",
+        "substitution": "bruh_momento",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)bruh moment",
+        "substitution": "bruh_moment",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)_rigbi_ имперские похождения",
+        "substitution": "_rigbi_impery",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)бог войны",
+        "substitution": "pridurky_premium_kupite",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)кратос",
+        "substitution": "pridurky_premium_kupite",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)лабубу",
+        "substitution": "labubu",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)монро",
+        "substitution": "monro",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)макима",
+        "substitution": "makima",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)старый нептун",
+        "substitution": "mrperdun",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta джокер",
+        "substitution": "paxabsoluta_joper",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta tiktok",
+        "substitution": "paxabsoluta_tikcock",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta фараон",
+        "substitution": "paxabsoluta_faraoh",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta хеллоуин",
+        "substitution": "paxabsoluta_halloween",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta гоблин-копейщик",
+        "substitution": "paxabsoluta_narek",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta эндер",
+        "substitution": "paxabsoluta_ender",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta санта",
+        "substitution": "paxabsoluta_santa",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)санта нептун",
+        "substitution": "santa_mrneptun",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)новогодний нептун",
+        "substitution": "novogodniy_mrneptun",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta шут",
+        "substitution": "paxabsoluta_irl",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta с ушками",
+        "substitution": "paxabsoluta_ear",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)paxabsoluta шут alt",
+        "substitution": "paxabsoluta_irl_alt",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)бизнесмен \\(без нептуна\\)",
+        "substitution": "biznesman_mrneptun",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)лесопилка",
+        "substitution": "pechenka123451",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)лесопилка 2",
+        "substitution": "lesopilka_2",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)шарк",
+        "substitution": "mrshark",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)лика",
+        "substitution": "lika",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)раздатчик",
+        "substitution": "dispenser",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)вайтик",
+        "substitution": "whityk",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)раздатчик",
+        "substitution": "dispenser",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?i)фембой",
+        "substitution": "femboy",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu) ",
+        "substitution": "_",
+        "matchAll": false,
+        "validate": false
+      }
+    ]
+  }
+}
