@@ -1,0 +1,30 @@
+{
+  "type": "component_data",
+  "items": "minecraft:fishing_rod",
+  "modelPrefix": "item/fishing_rod/",
+  "modelParent": "minecraft:item/fishing_rod",
+  "parameters": {
+    "componentType": "custom_name",
+    "expect": "rich_text",
+    "debug": true,
+    "transform": ["lowercase",
+      {
+        "regex": "(?iu)ё",
+        "substitution": "е",
+        "matchAll": false,
+        "validate": false
+      },{
+        "regex": "(?iu)цветная удочка",
+        "substitution": "fishing_rod_color",
+        "matchAll": true,
+        "validate": false
+      },
+      {
+        "regex": "(?iu)лассо",
+        "substitution": "lasso",
+        "matchAll": true,
+        "validate": false
+      }
+    ]
+  }
+}

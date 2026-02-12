@@ -1,0 +1,80 @@
+{
+	"textures": {
+		"0": "minecraft:item/iron_ingot/klok"
+	},
+	"elements": [
+		{
+			"from": [7.46607, 7.46607, -6.95003],
+			"to": [8.53393, 8.53393, 22.95003],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [3, 5, 3.5, 5.5],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 14, 0.5],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [5, 3, 5.5, 3.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0.5, 14, 1],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0.5, 15, 0, 1],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [1, 1, 0.5, 15],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 5.27, 1.32],
+			"scale": [1.38595, 1.38595, 1.38595]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 5.27, 1.32],
+			"scale": [1.38595, 1.38595, 1.38595]
+		},
+		"firstperson_righthand": {
+			"rotation": [76, 22, 0],
+			"translation": [2.26972, -4.50739, 6.71636],
+			"scale": [0.67425, 0.67425, 0.67425]
+		},
+		"firstperson_lefthand": {
+			"rotation": [76, 22, 0],
+			"translation": [2.26972, -4.50739, 6.71636],
+			"scale": [0.67425, 0.67425, 0.67425]
+		},
+		"ground": {
+			"rotation": [0, 0, 0],
+			"translation": [0, -3, 2],
+			"scale": [1.87291, 1.87291, 1.87291]
+		},
+		"gui": {
+			"rotation": [-150, -45, 180],
+			"translation": [-0.88388, -3.34692, -2.95297],
+			"scale": [1.17057, 1.17057, 1.17057]
+		},
+		"head": {
+			"rotation": [0, 0, 0],
+			"translation": [0, -1.25, 2],
+			"scale": [1.87291, 1.87291, 1.87291]
+		},
+		"fixed": {
+			"rotation": [0, 0, 0],
+			"translation": [0, -7, 2],
+			"scale": [1.87291, 1.87291, 1.87291]
+		}
+	}
+}

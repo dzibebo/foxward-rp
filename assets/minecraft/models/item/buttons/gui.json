@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [162, 348],
+	"textures": {
+		"3": "item/buttons/gui"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 32],
+			"to": [16, 32, 32],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 32]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"east": {"uv": [0, 0, 16, 12], "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 12], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 12], "texture": "#3"},
+				"down": {"uv": [0, 0, 16, 12], "texture": "#3"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, 2.5, 40],
+			"scale": [3.37617, 3.85938, 0.01]
+		}
+	}
+}

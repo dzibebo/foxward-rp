@@ -1,0 +1,26 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "invisible"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "invisible"
+            }
+        ],
+        "wings": [
+            {
+                "texture": "invisible",
+                "use_player_texture": true
+            }
+        ],
+		"happy_ghast_body": [
+      {
+        "texture": "invisible"
+      }
+    ]
+  
+    }
+}
