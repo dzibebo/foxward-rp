@@ -1,0 +1,8 @@
+{
+	"parent": "item/test/furniture/stool",
+	"textures": {
+		"1": "item/test/planks/acacia_planks",
+"0": "item/test/furniture/acacia_stool",
+		"particle": "item/test/planks/acacia_planks"
+	}
+}

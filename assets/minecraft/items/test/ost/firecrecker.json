@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/ost/sprites/firecrecker"
+        },
+        "when": [
+          "gui"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/ost/firecrecker"
+    },
+    "property": "minecraft:display_context"
+  }
+}

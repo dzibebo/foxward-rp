@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "item/test/bundle/sprites/next"
+          },
+          "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "item/test/bundle/sprites/next_back"
+              },
+              {
+                "type": "minecraft:bundle/selected_item"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "item/test/bundle/sprites/next_front"
+              }
+            ]
+          },
+          "property": "minecraft:bundle/has_selected_item"
+        },
+        "when": [
+          "gui",
+          "ground"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/bundle/pack_of_siggarets/next"
+    },
+    "property": "minecraft:display_context"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/ost/sprites/umbrella"
+        },
+        "when": [
+          "gui"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/ost/umbrella"
+    },
+    "property": "minecraft:display_context"
+  }
+}

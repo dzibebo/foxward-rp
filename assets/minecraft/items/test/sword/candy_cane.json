@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/food/sprites/candy_cane"
+        },
+        "when": [
+          "gui"
+
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/food/candy_cane"
+    },
+    "property": "minecraft:display_context"
+  }
+}

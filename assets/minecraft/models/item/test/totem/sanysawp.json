@@ -1,0 +1,6 @@
+{
+"parent":"item/source_models/totem",
+"textures":{
+"1":"item/test/totem/sanysawp"
+}
+}

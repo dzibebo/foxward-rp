@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/book/card/sprites/yellow_block"
+        },
+        "when": [
+          "gui"
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/book/uno_card/unknown_uno_card"
+        },
+        "when": [
+          "ground",
+          "thirdperson_righthand",
+          "thirdperson_lefthand"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/book/uno_card/yellow_block"
+    },
+    "property": "minecraft:display_context"
+  }
+}

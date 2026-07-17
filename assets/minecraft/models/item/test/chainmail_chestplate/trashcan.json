@@ -1,0 +1,7 @@
+{
+	"parent": "item/test/iron_chestplate/trashcan",
+	"textures": {
+		"0": "item/test/chainmail_chestplate/kriloshko_avtovaz",
+		"particle": "item/test/chainmail_chestplate/kriloshko_avtovaz"
+	}
+}

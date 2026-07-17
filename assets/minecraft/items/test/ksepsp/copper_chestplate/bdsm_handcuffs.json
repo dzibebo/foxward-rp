@@ -1,0 +1,13 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "item/test/chestplate/bdsm_handcuffs",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": -2059079
+      }
+    ]
+
+  }
+}

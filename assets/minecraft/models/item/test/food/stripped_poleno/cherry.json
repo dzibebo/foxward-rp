@@ -1,0 +1,7 @@
+{
+	"parent": "item/test/templates/poleno",
+	"textures": {
+		"layer0": "item/test/planks/stripped_cherry_log",
+		"particle": "item/test/planks/stripped_cherry_log"
+	}
+}

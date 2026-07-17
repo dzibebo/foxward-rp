@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/pickaxe/ksepsp/sprites/cooper_anchor"
+        },
+        "when": [
+          "gui",
+          "ground"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/pickaxe/ksepsp/cooper_anchor"
+    },
+    "property": "minecraft:display_context"
+  }
+}

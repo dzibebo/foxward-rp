@@ -1,0 +1,17 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "leather/rzk"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "leather/rzk"
+            }
+        ],
+        "humanoid_baby": [
+            {
+                "texture": "leather/rzk"
+            }
+        ]}}

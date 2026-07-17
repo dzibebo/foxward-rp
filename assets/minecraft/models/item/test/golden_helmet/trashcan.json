@@ -1,0 +1,6 @@
+{
+  "parent": "item/test/iron_helmet/trashcan",
+  "textures": {
+    "2": "item/test/golden_helmet/kriloshko_avtovaz"
+  }
+}

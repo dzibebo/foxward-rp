@@ -1,6 +1,0 @@
-{
-	"parent": "item/iron_ingot/slot_machine",
-	"textures": {
-	  "0": "item/iron_ingot/slot_machine_2"
-	}
-  }

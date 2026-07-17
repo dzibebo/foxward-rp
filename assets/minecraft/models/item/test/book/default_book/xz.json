@@ -1,0 +1,13 @@
+{
+"parent":"item/test/book/default_book/default_book_opened",
+"elements":[		{
+			"from": [-1.75, -5.05, 8],
+			"to": [7.25, 5.95, 8],
+			"rotation": {"x": 45, "y": 0, "z": -1, "origin": [7.25, 0.45, 8]},
+			"faces": {
+				"north": {"uv": [15.5, 10.5, 11, 5], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 5, 4.5, 10.5], "texture": "#1"}
+			}}]
+
+
+}

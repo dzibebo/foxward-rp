@@ -1,6 +1,0 @@
-{
-	"parent": "item/iron_ingot/blue_girland",
-	"textures": {
-	  "1": "item/iron_ingot/purple_girland"
-	}
-  }

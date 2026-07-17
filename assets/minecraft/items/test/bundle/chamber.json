@@ -1,0 +1,99 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          { "when": "0", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/1_blank" } },
+          { "when": "1", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/1_live" } }
+        ],
+        "fallback": { "type": "minecraft:model", "model": "item/test/furniture/chamber/empty" }
+      },
+
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "cases": [
+          { "when": "0", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/2_blank" } },
+          { "when": "1", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/2_live" } }
+        ],
+        "fallback": { "type": "minecraft:model", "model": "item/test/furniture/chamber/empty" }
+      },
+
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "cases": [
+          { "when": "0", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/3_blank" } },
+          { "when": "1", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/3_live" } }
+        ],
+        "fallback": { "type": "minecraft:model", "model": "item/test/furniture/chamber/empty" }
+      },
+
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 3,
+        "cases": [
+          { "when": "0", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/4_blank" } },
+          { "when": "1", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/4_live" } }
+        ],
+        "fallback": { "type": "minecraft:model", "model": "item/test/furniture/chamber/empty" }
+      },
+
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 4,
+        "cases": [
+          { "when": "0", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/5_blank" } },
+          { "when": "1", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/5_live" } }
+        ],
+        "fallback": { "type": "minecraft:model", "model": "item/test/furniture/chamber/empty" }
+      },
+
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 5,
+        "cases": [
+          { "when": "0", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/6_blank" } },
+          { "when": "1", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/6_live" } }
+        ],
+        "fallback": { "type": "minecraft:model", "model": "item/test/furniture/chamber/empty" }
+      },
+
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 6,
+        "cases": [
+          { "when": "0", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/7_blank" } },
+          { "when": "1", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/7_live" } }
+        ],
+        "fallback": { "type": "minecraft:model", "model": "item/test/furniture/chamber/empty" }
+      },
+
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 7,
+        "cases": [
+          { "when": "0", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/8_blank" } },
+          { "when": "1", "model": { "type": "minecraft:model", "model": "item/test/furniture/chamber/8_live" } }
+        ],
+        "fallback": { "type": "minecraft:model", "model": "item/test/furniture/chamber/empty" }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "item/test/furniture/chamber/empty"
+      }
+
+    ]
+  }
+}

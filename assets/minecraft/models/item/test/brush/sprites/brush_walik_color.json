@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+          "layer1": "item/test/brush/sprites/brush_walik_overlay",
+    "layer0": "item/test/brush/sprites/brush_walik_color"}
+
+
+}

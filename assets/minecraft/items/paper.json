@@ -3,121 +3,225 @@
     "type": "minecraft:range_dispatch",
     "property": "minecraft:custom_model_data",
     "index": 0,
-    "entries": [
+    "entries":
+[
+  {
+    "threshold": 700.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/wanted_1_doa"
+    }
+  },
+  {
+    "threshold": 701.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/wanted_1_oa"
+    }
+  },
+  {
+    "threshold": 702.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/wanted_1_od"
+    }
+  },
 
-      {
-        "threshold": 700.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_1"
-        }
-      },
-      {
-        "threshold": 701.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_2"
-        }
-      },
-      {
-        "threshold": 702.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_3"
-        }
-      },
-      {
-        "threshold": 703.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_4"
-        }
-      },
-      {
-        "threshold": 704.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_5"
-        }
-      },
-      {
-        "threshold": 705.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_6"
-        }
-      },
-      {
-        "threshold": 706.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_7"
-        }
-      },
-      {
-        "threshold": 707.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_big"
-        }
-      },
-      {
-        "threshold": 708.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_big_1"
-        }
-      },
-      {
-        "threshold": 709.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_big_2"
-        }
-      },
-      {
-        "threshold": 710.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_big_3"
-        }
-      },
-      {
-        "threshold": 711.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_big_4"
-        }
-      },
-      {
-        "threshold": 712.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_big_5"
-        }
-      },
-      {
-        "threshold": 713.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_big_6"
-        }
-      },
-      {
-        "threshold": 714.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_big_7"
-        }
-      },
-      {
-        "threshold": 715.0,
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/papers/letter_clear"
-        }
-      }
-    ],
+  {
+    "threshold": 703.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/wanted_band_doa"
+    }
+  },
+  {
+    "threshold": 704.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/wanted_band_oa"
+    }
+  },
+  {
+    "threshold": 705.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/wanted_band_od"
+    }
+  },
+
+  {
+    "threshold": 706.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/wanted_small_0"
+    }
+  },
+  {
+    "threshold": 707.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/wanted_small_1"
+    }
+  },
+  {
+    "threshold": 708.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/wanted_small_2"
+    }
+  },
+  {
+    "threshold": 709.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/wanted_small_3"
+    }
+  },
+  {
+    "threshold": 710.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/wanted_small_4"
+    }
+  },
+  {
+    "threshold": 711.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/wanted_small_5"
+    }
+  },
+
+  {
+    "threshold": 712.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/warning"
+    }
+  },
+
+  {
+    "threshold": 713.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/warning_small_0"
+    }
+  },
+  {
+    "threshold": 714.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/warning_small_1"
+    }
+  },
+  {
+    "threshold": 715.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/warning_small_2"
+    }
+  },
+  {
+    "threshold": 716.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/warning_small_3"
+    }
+  },
+  {
+    "threshold": 717.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/warning_small_4"
+    }
+  },
+  {
+    "threshold": 718.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/warning_small_5"
+    }
+  },
+
+  {
+    "threshold": 719.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/letter"
+    }
+  },
+
+  {
+    "threshold": 720.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/letter_small_0"
+    }
+  },
+  {
+    "threshold": 721.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/letter_small_1"
+    }
+  },
+  {
+    "threshold": 722.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/letter_small_2"
+    }
+  },
+  {
+    "threshold": 723.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/letter_small_3"
+    }
+  },
+  {
+    "threshold": 724.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/letter_small_4"
+    }
+  },
+  {
+    "threshold": 725.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/letter_small_5"
+    }
+  },
+  {
+    "threshold": 726.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/letter_small_6"
+    }
+  },
+  {
+    "threshold": 727.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/letter_small_7"
+    }
+  },
+  {
+    "threshold": 728.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/letter_small_8"
+    }
+  },
+  {
+    "threshold": 729.0,
+    "model": {
+      "type": "minecraft:model",
+      "model": "item/papers/letter_small_9"
+    }
+  }
+],
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/paper"

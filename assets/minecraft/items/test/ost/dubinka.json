@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/ost/sprites/dubinka"
+        },
+        "when": [
+          "gui"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/ost/dubinka"
+    },
+    "property": "minecraft:display_context"
+  }
+}

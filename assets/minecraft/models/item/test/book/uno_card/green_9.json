@@ -1,0 +1,61 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [552, 256],
+	"textures": {
+		"1": "item/test/book/card/cards"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 8],
+			"to": [14, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 8]},
+			"faces": {
+				"north": {"uv": [11.13043, 10, 11.82609, 12], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.69565, 2], "texture": "#missing"},
+				"south": {"uv": [10.43478, 8, 11.13043, 10], "texture": "#1"},
+				"west": {"uv": [0, 0, 0.69565, 2], "texture": "#missing"},
+				"up": {"uv": [0, 0, 0.69565, 2], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0.69565, 2], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.25, 0.5],
+			"scale": [4, 4, 4]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.25, 0.5],
+			"scale": [4, 4, 4]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 49.25, -180],
+			"translation": [0, 3.25, 0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 49.25, -180],
+			"translation": [0, 3.25, 0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [4, 4, 4]
+		},
+		"gui": {
+			"scale": [4, 4, 4]
+		},
+		"head": {
+			"translation": [0, 0, -7.5]
+		},
+		"fixed": {
+			"rotation": [0, 0, 3.25],
+			"translation": [0, 0, 0.75],
+			"scale": [2, 2, 2]
+		},
+		"on_shelf": {
+			"scale": [4, 4, 4]
+		}
+	}
+}

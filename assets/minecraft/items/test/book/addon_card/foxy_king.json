@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/book/card/sprites/foxy_king"
+        },
+        "when": [
+          "gui"
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/book/addon_card/unknown_card"
+        },
+        "when": [
+          "ground",
+          "thirdperson_righthand",
+          "thirdperson_lefthand"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/book/addon_card/foxy_king"
+    },
+    "property": "minecraft:display_context"
+  }
+}

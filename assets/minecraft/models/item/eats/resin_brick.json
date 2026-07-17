@@ -1,7 +1,0 @@
-{
-	"parent": "item/eats/brick_default",
-	"textures": {
-	  "1": "item/eats/resin_brick",
-		"particle": "item/eats/resin_brick"
-	}
-  }

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+          "layer0": "item/test/bundle/sprites/packs_of_siggarets/next"}
+
+
+}

@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "item/test/gift",
+    "tints": [
+      { "type": "minecraft:map_color", "default": -1 }
+    ]
+  }
+}

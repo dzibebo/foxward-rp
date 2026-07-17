@@ -1,0 +1,106 @@
+
+{
+    "context": "equippable",
+    "type": "component_format",
+    "items": [
+
+        "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots",
+        "minecraft:netherite_helmet", "minecraft:netherite_chestplate", "minecraft:netherite_leggings", "minecraft:netherite_boots",
+        "minecraft:golden_helmet", "minecraft:golden_chestplate", "minecraft:golden_leggings", "minecraft:golden_boots",
+        "minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_leggings", "minecraft:leather_boots",
+        "minecraft:iron_helmet", "minecraft:iron_chestplate", "minecraft:iron_leggings", "minecraft:iron_boots",
+        "minecraft:copper_helmet", "minecraft:copper_chestplate", "minecraft:copper_leggings", "minecraft:copper_boots",
+        "minecraft:chainmail_helmet", "minecraft:chainmail_chestplate", "minecraft:chainmail_leggings", "minecraft:chainmail_boots",
+        "minecraft:white_harness","elytra"
+    ],
+    "modelPrefix": "item/test/",
+    "modelParent": "minecraft:item/handheld",
+    "parameters": {
+        "format": "craftable/${itemname}",
+        "variables": {
+            "type": {
+                "property": "item_type",
+                "fallback": "_",
+                "transform": ["discard_namespace","lowercase",{
+                    "regex": "(?iu)leather_chestplate",
+                    "substitution": "leather_chestplate",
+                    "matchAll": true,
+                    "validate": false
+                },
+{
+                        "regex": "(?iu)golden.*",
+                        "substitution": "golden",
+                        "matchAll": true,
+                        "validate": false
+                    },
+                    {
+                        "regex": "(?iu)leather.*",
+                        "substitution": "leather",
+                        "matchAll": true,
+                        "validate": false
+                    },{
+                        "regex": "(?iu)copper_leggings",
+                        "substitution": "underwings",
+                        "matchAll": true,
+                        "validate": false
+                    }]
+
+            },
+            "itemname": {
+                "componentType": "item_name",
+                "fallback": "none",
+                "transform": ["discard_namespace","lowercase",
+                    {
+                        "regex": "(?iu)ё",
+                        "substitution": "е",
+                        "matchAll": false,
+                        "validate": false
+                    },
+                    {
+                        "regex": "(?iu)рзк",
+                        "substitution": "rzk",
+                        "matchAll": true,
+                        "validate": false
+                    },
+                    {
+                        "regex": "(?iu)подкрыльники",
+                        "substitution": "underwings",
+                        "matchAll": true,
+                        "validate": false
+                    },
+                    {
+                        "regex": "(?iu)наручники",
+                        "substitution": "handcuffs",
+                        "matchAll": true,
+                        "validate": false
+                    },
+                    {
+                        "regex": "(?iu)бдсм наручники",
+                        "substitution": "bdsm_handcuffs",
+                        "matchAll": true,
+                        "validate": false
+                    },
+                    {
+                        "regex": "(?iu)спецкомплект",
+                        "substitution": "military_form",
+                        "matchAll": true,
+                        "validate": false
+                    },
+                    {
+                        "regex": "(?iu)мусорный.* .*бак",
+                        "substitution": "trashcan",
+                        "matchAll": true,
+                        "validate": false
+                    },
+                    {
+                        "regex": "(?iu)ходячая мишень",
+                        "substitution": "minik",
+                        "matchAll": true,
+                        "validate": false
+                    }
+                ]
+            }
+        }
+    }
+}
+

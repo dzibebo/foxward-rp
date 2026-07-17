@@ -1,7 +1,0 @@
-{
-	"parent": "item/eats/brick_default",
-	"textures": {
-	  "1": "item/eats/nether_brick",
-		"particle": "item/eats/nether_brick"
-	}
-  }

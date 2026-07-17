@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "item/test/horn/gusli_samoduvi_off"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "item/test/horn/gusli_samoduvi"
+    },
+    "property": "minecraft:using_item"
+  }
+}

@@ -1,0 +1,94 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/test/sword/ritual_knife",
+		"particle": "item/test/sword/ritual_knife"
+	},
+	"elements": [
+		{
+			"from": [7, -1, 7],
+			"to": [9, 4, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 10, 2, 15], "texture": "#0"},
+				"east": {"uv": [10, 0, 12, 5], "texture": "#0"},
+				"south": {"uv": [2, 10, 4, 15], "texture": "#0"},
+				"west": {"uv": [4, 10, 6, 15], "texture": "#0"},
+				"up": {"uv": [14, 2, 12, 0], "texture": "#0"},
+				"down": {"uv": [14, 2, 12, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 2, 8],
+			"to": [11, 12, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 6, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 10], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 10], "texture": "#0"},
+				"south": {"uv": [5, 0, 10, 10], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 10], "texture": "#0"},
+				"up": {"uv": [5, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [5, 0, 0, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 1, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, -1, 6.5]},
+			"faces": {
+				"north": {"uv": [12, 4, 15, 5], "texture": "#0"},
+				"east": {"uv": [12, 11, 15, 12], "texture": "#0"},
+				"south": {"uv": [12, 12, 15, 13], "texture": "#0"},
+				"west": {"uv": [13, 5, 16, 6], "texture": "#0"},
+				"up": {"uv": [13, 8, 10, 5], "texture": "#0"},
+				"down": {"uv": [9, 10, 6, 13], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.5, 4, 6.5],
+			"to": [9.5, 5, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 4, 6.5]},
+			"faces": {
+				"north": {"uv": [6, 13, 9, 14], "texture": "#0"},
+				"east": {"uv": [13, 6, 16, 7], "texture": "#0"},
+				"south": {"uv": [13, 7, 16, 8], "texture": "#0"},
+				"west": {"uv": [13, 8, 16, 9], "texture": "#0"},
+				"up": {"uv": [13, 11, 10, 8], "texture": "#0"},
+				"down": {"uv": [12, 11, 9, 14], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 4, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 4, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [140.73, 68.74, -142.71],
+			"translation": [1.5, 6.5, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-53, -73.29, -51.78],
+			"translation": [1.5, 6.5, 0.75]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [153.95, -14.46, 122.53],
+			"translation": [-2, 0.5, 0],
+			"scale": [1.12695, 1.12695, 1.12695]
+		},
+		"fixed": {
+			"translation": [0, 5, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

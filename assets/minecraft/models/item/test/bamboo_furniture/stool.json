@@ -1,0 +1,8 @@
+{
+	"parent": "item/test/furniture/stool",
+	"textures": {
+		"1": "item/test/planks/bamboo_planks",
+"0": "item/test/furniture/bamboo_stool",
+		"particle": "item/test/planks/bamboo_planks"
+	}
+}

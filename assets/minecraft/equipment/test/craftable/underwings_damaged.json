@@ -1,0 +1,14 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "underwings/underwings_damaged"
+            }
+        ],
+"humanoid_leggings": [
+            {
+                "texture": "underwings/underwings_damaged"
+            }
+        ]
+
+    }}

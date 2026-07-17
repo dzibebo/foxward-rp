@@ -1,0 +1,17 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "chainmail/military_form"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "chainmail/military_form"
+            }
+        ],
+        "humanoid_baby": [
+            {
+                "texture": "chainmail/military_form"
+            }
+        ]}}

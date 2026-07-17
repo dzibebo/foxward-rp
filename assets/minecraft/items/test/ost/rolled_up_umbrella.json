@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/ost/sprites/rolled_up_umbrella"
+        },
+        "when": [
+          "gui"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/ost/rolled_up_umbrella"
+    },
+    "property": "minecraft:display_context"
+  }
+}

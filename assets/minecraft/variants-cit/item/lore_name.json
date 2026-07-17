@@ -1,0 +1,1358 @@
+{
+  "type": "component_format",
+  "items": [
+    "paper", "map", "filled_map", "minecraft:book", "minecraft:writable_book", "minecraft:written_book", "minecraft:enchanted_book", "minecraft:knowledge_book",
+    "shield",
+    "minecraft:arrow", "minecraft:tipped_arrow", "minecraft:spectral_arrow", "minecraft:snowball", "minecraft:egg", "minecraft:ender_pearl", "minecraft:eye_of_ender", "minecraft:firework_rocket", "minecraft:fire_charge", "minecraft:wind_charge",
+    "minecraft:trident",
+    "minecraft:wooden_sword", "minecraft:stone_sword", "minecraft:iron_sword", "minecraft:golden_sword", "minecraft:diamond_sword", "minecraft:netherite_sword", "minecraft:mace", "minecraft:wooden_axe", "minecraft:stone_axe", "minecraft:iron_axe", "minecraft:golden_axe", "minecraft:diamond_axe", "minecraft:netherite_axe", "copper_axe","copper_sword", "minecraft:wooden_spear", "minecraft:stone_spear", "minecraft:iron_spear", "minecraft:golden_spear", "minecraft:diamond_spear", "minecraft:netherite_spear", "copper_spear",
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "minecraft:wooden_pickaxe", "minecraft:stone_pickaxe", "minecraft:iron_pickaxe", "minecraft:golden_pickaxe", "minecraft:diamond_pickaxe", "minecraft:netherite_pickaxe",
+    "minecraft:wooden_shovel", "minecraft:stone_shovel", "minecraft:iron_shovel", "minecraft:golden_shovel", "minecraft:diamond_shovel", "minecraft:netherite_shovel", "minecraft:copper_shovel",
+    "minecraft:wooden_hoe", "minecraft:stone_hoe", "minecraft:iron_hoe", "minecraft:golden_hoe", "minecraft:diamond_hoe", "minecraft:netherite_hoe",
+    "minecraft:flint_and_steel",
+    "minecraft:shears",
+    "minecraft:fishing_rod",
+    "minecraft:carrot_on_a_stick",
+    "minecraft:warped_fungus_on_a_stick",
+    "minecraft:brush",
+    "minecraft:name_tag",
+    "minecraft:lead",
+    "minecraft:compass",
+    "minecraft:recovery_compass",
+    "minecraft:clock",
+    "minecraft:spyglass",
+    "minecraft:bucket",
+    "minecraft:water_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:milk_bucket",
+    "minecraft:powder_snow_bucket",
+    "minecraft:axolotl_bucket",
+    "minecraft:cod_bucket",
+    "minecraft:salmon_bucket",
+    "minecraft:tropical_fish_bucket",
+    "minecraft:pufferfish_bucket",
+    "minecraft:tadpole_bucket",
+    "minecraft:apple", "minecraft:golden_apple", "minecraft:enchanted_golden_apple",
+    "minecraft:bread",
+    "minecraft:cooked_beef",
+    "minecraft:beef",
+    "minecraft:cooked_porkchop",
+    "minecraft:porkchop",
+    "minecraft:cooked_chicken",
+    "minecraft:chicken",
+    "minecraft:cooked_mutton",
+    "minecraft:mutton",
+    "minecraft:cooked_rabbit",
+    "minecraft:rabbit",
+    "minecraft:cooked_cod",
+    "minecraft:cod",
+    "minecraft:cooked_salmon",
+    "minecraft:salmon",
+    "minecraft:tropical_fish",
+    "minecraft:pufferfish",
+    "minecraft:rotten_flesh",
+    "minecraft:spider_eye",
+    "minecraft:carrot",
+    "minecraft:golden_carrot",
+    "minecraft:potato",
+    "minecraft:baked_potato",
+    "minecraft:poisonous_potato",
+    "minecraft:beetroot",
+    "minecraft:beetroot_soup",
+    "minecraft:mushroom_stew",
+    "minecraft:rabbit_stew",
+    "minecraft:suspicious_stew",
+    "minecraft:melon_slice",
+    "minecraft:pumpkin_pie",
+    "minecraft:cookie",
+    "minecraft:cake",
+    "minecraft:honey_bottle",
+    "minecraft:dried_kelp",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries",
+    "minecraft:chorus_fruit",
+    "minecraft:potion",
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion",
+    "minecraft:glass_bottle",
+    "minecraft:iron_ingot", "minecraft:gold_ingot", "minecraft:copper_ingot", "minecraft:netherite_ingot", "minecraft:oak_planks", "minecraft:spruce_planks", "minecraft:birch_planks", "minecraft:jungle_planks", "minecraft:acacia_planks", "minecraft:dark_oak_planks", "minecraft:mangrove_planks", "minecraft:cherry_planks", "minecraft:bamboo_planks", "minecraft:crimson_planks", "minecraft:warped_planks", "minecraft:pale_oak_planks",
+    "minecraft:iron_nugget",
+    "minecraft:gold_nugget",
+    "minecraft:netherite_scrap",
+    "minecraft:brick",
+    "minecraft:nether_brick",
+    "minecraft:bundle", "minecraft:white_bundle", "minecraft:black_bundle", "minecraft:gray_bundle", "minecraft:light_gray_bundle", "minecraft:brown_bundle", "minecraft:red_bundle", "minecraft:yellow_bundle", "minecraft:orange_bundle", "minecraft:green_bundle", "minecraft:lime_bundle", "minecraft:blue_bundle", "minecraft:light_blue_bundle", "minecraft:cyan_bundle", "minecraft:purple_bundle", "minecraft:pink_bundle", "minecraft:magenta_bundle",
+    "minecraft:goat_horn",
+    "minecraft:pale_oak_log",
+    "minecraft:pale_oak_wood",
+    "minecraft:stripped_pale_oak_log",
+    "minecraft:stripped_pale_oak_wood",
+    "minecraft:pale_oak_stairs",
+    "minecraft:pale_oak_slab",
+    "minecraft:pale_oak_fence",
+    "minecraft:pale_oak_fence_gate",
+    "minecraft:pale_oak_door",
+    "minecraft:pale_oak_trapdoor",
+    "minecraft:pale_oak_pressure_plate",
+    "minecraft:pale_oak_button",
+    "minecraft:pale_oak_sign",
+    "minecraft:pale_oak_hanging_sign",
+    "minecraft:pale_oak_leaves",
+    "minecraft:pale_oak_sapling",
+    "minecraft:redstone_lamp",
+    "minecraft:lantern", "minecraft:soul_lantern", "minecraft:sea_lantern", "minecraft:copper_lantern", "minecraft:exposed_copper_lantern", "minecraft:weathered_copper_lantern", "minecraft:oxidized_copper_lantern", "minecraft:waxed_copper_lantern", "minecraft:waxed_exposed_copper_lantern", "minecraft:waxed_weathered_copper_lantern", "minecraft:waxed_oxidized_copper_lantern",
+    "minecraft:glowstone",
+    "minecraft:shroomlight",
+    "minecraft:ochre_froglight",
+    "minecraft:verdant_froglight",
+    "minecraft:pearlescent_froglight",
+    "minecraft:pumpkin", "minecraft:carved_pumpkin", "minecraft:pumpkin_seeds",
+    "minecraft:jack_o_lantern",
+    "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots",
+    "minecraft:netherite_helmet", "minecraft:netherite_chestplate", "minecraft:netherite_leggings", "minecraft:netherite_boots",
+    "minecraft:golden_helmet", "minecraft:golden_chestplate", "minecraft:golden_leggings", "minecraft:golden_boots",
+    "minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_leggings", "minecraft:leather_boots",
+    "minecraft:iron_helmet", "minecraft:iron_chestplate", "minecraft:iron_leggings", "minecraft:iron_boots",
+    "minecraft:copper_helmet", "minecraft:copper_chestplate", "minecraft:copper_leggings", "minecraft:copper_boots",
+    "minecraft:chainmail_helmet", "minecraft:chainmail_chestplate", "minecraft:chainmail_leggings", "minecraft:chainmail_boots",
+    "minecraft:white_harness", "elytra",
+    "minecraft:totem_of_undying",
+    "painting",
+    "minecraft:copper_ore", "minecraft:deepslate_copper_ore", "minecraft:raw_copper", "minecraft:raw_copper_block",
+    "minecraft:copper_block", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper",
+    "minecraft:cut_copper", "minecraft:exposed_cut_copper", "minecraft:weathered_cut_copper", "minecraft:oxidized_cut_copper",
+    "minecraft:waxed_copper_block", "minecraft:waxed_exposed_copper", "minecraft:waxed_weathered_copper", "minecraft:waxed_oxidized_copper",
+    "minecraft:waxed_cut_copper", "minecraft:waxed_exposed_cut_copper", "minecraft:waxed_weathered_cut_copper", "minecraft:waxed_oxidized_cut_copper",
+    "minecraft:chiseled_copper", "minecraft:exposed_chiseled_copper", "minecraft:weathered_chiseled_copper", "minecraft:oxidized_chiseled_copper",
+    "minecraft:copper_grate", "minecraft:exposed_copper_grate", "minecraft:weathered_copper_grate", "minecraft:oxidized_copper_grate",
+    "minecraft:copper_bulb", "minecraft:exposed_copper_bulb", "minecraft:weathered_copper_bulb", "minecraft:oxidized_copper_bulb",
+    "minecraft:copper_door", "minecraft:exposed_copper_door", "minecraft:weathered_copper_door", "minecraft:oxidized_copper_door",
+    "minecraft:copper_trapdoor", "minecraft:exposed_copper_trapdoor", "minecraft:weathered_copper_trapdoor", "minecraft:oxidized_copper_trapdoor",
+    "minecraft:lightning_rod",
+    "minecraft:shulker_shell",
+    "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box",
+    "minecraft:oak_boat", "minecraft:oak_chest_boat", "minecraft:spruce_boat", "minecraft:spruce_chest_boat", "minecraft:birch_boat", "minecraft:birch_chest_boat", "minecraft:jungle_boat", "minecraft:jungle_chest_boat", "minecraft:acacia_boat", "minecraft:acacia_chest_boat", "minecraft:dark_oak_boat", "minecraft:dark_oak_chest_boat", "minecraft:mangrove_boat", "minecraft:mangrove_chest_boat", "minecraft:cherry_boat", "minecraft:cherry_chest_boat", "minecraft:bamboo_raft", "minecraft:bamboo_chest_raft", "minecraft:pale_oak_boat", "minecraft:pale_oak_chest_boat",
+    "minecraft:armor_stand",
+    "minecraft:minecart", "minecraft:chest_minecart", "minecraft:furnace_minecart", "minecraft:tnt_minecart", "minecraft:hopper_minecart", "minecraft:command_block_minecart"
+  ],
+  "modelPrefix": "item/test/",
+  "modelParent": "minecraft:item/generated",
+  "parameters": {
+    "format": "${type}/${name}/${content}",
+    "variables": {
+      "content": {
+        "componentType": "lore",
+        "expect": "rich_text",
+        "validate": false,
+        "fallback": "empty",
+        "transform": [
+          "lowercase",
+          {
+            "regex": "(?iu)ё",
+            "substitution": "е",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)ая",
+            "substitution": "ый",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)яя",
+            "substitution": "ый",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)ой",
+            "substitution": "ый",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)ий",
+            "substitution": "ый",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)ое",
+            "substitution": "ый",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)ее",
+            "substitution": "ый",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)ые",
+            "substitution": "ый",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)ие",
+            "substitution": "ый",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)блютуз",
+            "substitution": "bluetooth",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)(.*правый.*)",
+            "substitution": "right",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)(.*левый.*)",
+            "substitution": "left",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)(.*верхный.*)",
+            "substitution": "upper",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)(.*bluetooth.*)",
+            "substitution": "bluetooth",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)(.*открытый.*)",
+            "substitution": "opened",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)(.*приготовленный.*)",
+            "substitution": "cooked",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)(.*закрытый.*)",
+            "substitution": "closed",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)(.*расширенный.*)",
+            "substitution": "advanced",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)(.*обычный.*)",
+            "substitution": "default",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)(.*водяный.*)",
+            "substitution": "water",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)(.*длинный.*)",
+            "substitution": "long",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)(.*самодельный.*)",
+            "substitution": "handmade",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*приспущенный.*",
+            "substitution": "down",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*акацыйвый.*",
+            "substitution": "acacia",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*березовый.*",
+            "substitution": "birch",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*вишневый.*",
+            "substitution": "cherry",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*багровый.*",
+            "substitution": "crimson",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*искаженный.*",
+            "substitution": "warped",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*темно-дубовый.*",
+            "substitution": "dark_oak",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*джунглыйвый.*",
+            "substitution": "jungle",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*мангровый.*",
+            "substitution": "mangrove",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*бледно-дубовый.*",
+            "substitution": "pale_oak",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*еловый.*",
+            "substitution": "spruce",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*дубовый.*",
+            "substitution": "oak",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*с.*.*краскый.*",
+            "substitution": "color",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)звездоцвет",
+            "substitution": "starflower",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)красный лилый",
+            "substitution": "red_lilium",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)лютики",
+            "substitution": "aquilegia",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)васильки",
+            "substitution": "cornflower",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)люмоцветы",
+            "substitution": "lumoflower",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)лук-батун",
+            "substitution": "allium",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)рандом",
+            "substitution": "random",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*старый.*",
+            "substitution": "old",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*старинный.*",
+            "substitution": "old",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*односторонный.*",
+            "substitution": "1side",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*1 на столе.*",
+            "substitution": "1_table",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*3 на столе.*",
+            "substitution": "3_table",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*1 на стене.*",
+            "substitution": "1_wall",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*3 на стене.*",
+            "substitution": "3_wall",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*белый.* .*выключенный.*",
+            "substitution": "white_off",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*черный.* .*выключенный.*",
+            "substitution": "black_off",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*белый.* .*включенный.*",
+            "substitution": "white_on",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*черный.* .*включенный.*",
+            "substitution": "black_on",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\-2.*",
+            "substitution": "2",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\-3.*",
+            "substitution": "3",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\-4.*",
+            "substitution": "4",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\-5.*",
+            "substitution": "5",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\-6.*",
+            "substitution": "6",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\-7.*",
+            "substitution": "7",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\-8.*",
+            "substitution": "8",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\-9.*",
+            "substitution": "9",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\-10.*",
+            "substitution": "10",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\-1.*",
+            "substitution": "1",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\-0.*",
+            "substitution": "0",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*пиковый ",
+            "substitution": "spades_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*пики",
+            "substitution": "spades_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*бубовый ",
+            "substitution": "diamonds_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*буби",
+            "substitution": "diamonds_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*трефовый ",
+            "substitution": "clubs_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*треф",
+            "substitution": "clubs_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*червовый ",
+            "substitution": "hearts_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*черви",
+            "substitution": "hearts_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*фоксовый ",
+            "substitution": "foxy_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*фокси",
+            "substitution": "foxy_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*крипиковый ",
+            "substitution": "creepy_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*крипи",
+            "substitution": "creepy_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*ликовый ",
+            "substitution": "liki_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*лики",
+            "substitution": "liki_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*желтый ",
+            "substitution": "yellow_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*красный ",
+            "substitution": "red_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*зеленый ",
+            "substitution": "green_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*фиолетовый ",
+            "substitution": "purple_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*коронованный ",
+            "substitution": "crowns_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*коронки",
+            "substitution": "crowns_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)валет.*",
+            "substitution": "jack",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)блок.*",
+            "substitution": "block",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)реверс.*",
+            "substitution": "reverse",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\+2.*",
+            "substitution": "plus2",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)\\+4.*",
+            "substitution": "plus4",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)цвет.*",
+            "substitution": "color",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)дама.*",
+            "substitution": "queen",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)король.*",
+            "substitution": "king",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)туз.*",
+            "substitution": "ace",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)джокер.*",
+            "substitution": "joker",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)еблан.*",
+            "substitution": "eblan",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*зубастый.*",
+            "substitution": "toothy",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*очень много.*",
+            "substitution": "very_much",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*нет.*",
+            "substitution": "no",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*много.*",
+            "substitution": "more",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*мало.*",
+            "substitution": "small",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*игрушечный.*",
+            "substitution": "toy",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*оранжевый.*",
+            "substitution": "orange",
+            "matchAll": true,
+            "validate": false
+          }
+
+        ]
+      },
+      "name": {
+        "componentType": "custom_name",
+        "expect": "rich_text",
+        "debug": true,
+        "transform": [
+          "lowercase",
+          {
+            "regex": "(?iu)ё",
+            "substitution": "е",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)мусорный.* .*бак",
+            "substitution": "trashcan",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)делориан",
+            "substitution": "delorian_12",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)стопка бумаг",
+            "substitution": "packs_of_papers",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)ножовка",
+            "substitution": "hacksaw",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)наутилус",
+            "substitution": "nautilus_baby",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)пепельница",
+            "substitution": "ashtray",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)незеритовая ножовка",
+            "substitution": "netherite_hacksaw",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)черепица",
+            "substitution": "roof_tiles",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)карта",
+            "substitution": "card",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)доп. карта",
+            "substitution": "addon_card",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)дополнительная карта",
+            "substitution": "addon_card",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)карта uno",
+            "substitution": "uno_card",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)черепица",
+            "substitution": "roof_tiles",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)дрон",
+            "substitution": "drone",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)канделябр",
+            "substitution": "candelabr",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)обтесанное полено",
+            "substitution": "stripped_poleno",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)полено",
+            "substitution": "poleno",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)ак-47",
+            "substitution": "ak47",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)томпсон",
+            "substitution": "thompson",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)терминал",
+            "substitution": "terminal",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)дорожный указатель",
+            "substitution": "direction_sign",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)утюг",
+            "substitution": "iron_utug",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*перекрашиваемый.*",
+            "substitution": "color",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)табурет",
+            "substitution": "stool",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)пиньята",
+            "substitution": "pinata",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)пачка сигарет",
+            "substitution": "pack_of_siggarets",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)зуз 200",
+            "substitution": "zooz_200",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)поднос",
+            "substitution": "platter",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)магнум",
+            "substitution": "magnum",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)п2000",
+            "substitution": "p2000",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)усп",
+            "substitution": "usp",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)юсп",
+            "substitution": "usp",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)двустволка",
+            "substitution": "dblbarrel",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)дробовик",
+            "substitution": "shotgun",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)обрез",
+            "substitution": "sawedoff",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)дигл",
+            "substitution": "deagle",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)тек-9",
+            "substitution": "tec9",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)песчаный орел",
+            "substitution": "deagle",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)tec-9",
+            "substitution": "tec9",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)дабстеп",
+            "substitution": "dubstep",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)портал",
+            "substitution": "portal_",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu) пушка",
+            "substitution": "gun",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu) ган",
+            "substitution": "gun",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)m4a4",
+            "substitution": "m4a4",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)m4a4s",
+            "substitution": "m4a4s",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)м4а4",
+            "substitution": "m4a4",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)м4а4s",
+            "substitution": "m4a4s",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)авп",
+            "substitution": "awp",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)библия",
+            "substitution": "bible",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)сатанинская библия",
+            "substitution": "satanbible",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)книжка",
+            "substitution": "default_book",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)гримуар",
+            "substitution": "grimoire",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)раскраски",
+            "substitution": "raskraski",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)старинная книга",
+            "substitution": "oldbook",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)пушка чембера",
+            "substitution": "chember_gun",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)элеонора",
+            "substitution": "eleonora",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)барный стул",
+            "substitution": "bar_chair",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)редстоуновый шарик",
+            "substitution": "redstone_ball",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)раскладушка",
+            "substitution": "foldphone",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*спецкомплект.*",
+            "substitution": "military_form",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)полка",
+            "substitution": "shelf",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)валик",
+            "substitution": "brush_walik",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)карамельная трость",
+            "substitution": "candy_cane",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)ваза",
+            "substitution": "vaza",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)телефон",
+            "substitution": "landline_phone",
+            "matchAll": true,
+            "validate": false
+          }
+        ]
+      },
+      "type": {
+        "property": "item_type",
+        "transform": [
+          "discard_namespace",
+          {
+            "regex": "(?iu)crossbow",
+            "substitution": "bow",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*pickaxe",
+            "substitution": "pickaxe",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*_axe",
+            "substitution": "sword",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*sword",
+            "substitution": "sword",
+            "matchAll": true,
+            "validate": false
+          },
+
+          {
+            "regex": "(?iu).*spear",
+            "substitution": "sword",
+            "matchAll": true,
+            "validate": false
+          }
+        ,
+          {
+            "regex": "(?iu).*ingot",
+            "substitution": "furniture",
+            "matchAll": true,
+            "validate": false
+          },
+
+          {
+            "regex": "(?iu)planks",
+            "substitution": "furniture",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*planks",
+            "substitution": "furniture",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*bundle",
+            "substitution": "bundle",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*arrow",
+            "substitution": "projectiles",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)snowball",
+            "substitution": "projectiles",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)egg",
+            "substitution": "projectiles",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)ender_pearl",
+            "substitution": "projectiles",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)eye_of_ender",
+            "substitution": "projectiles",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)firework_rocket",
+            "substitution": "projectiles",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)fire_charge",
+            "substitution": "projectiles",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)wind_charge",
+            "substitution": "projectiles",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*book",
+            "substitution": "book",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)mace",
+            "substitution": "sword",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*shovel",
+            "substitution": "shovel",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*lantern",
+            "substitution": "lantern",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*hoe",
+            "substitution": "hoe",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)goat_horn",
+            "substitution": "horn",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*pumpkin",
+            "substitution": "hat",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*apple",
+            "substitution": "food",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)totem_of_undying",
+            "substitution": "totem",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)paper",
+            "substitution": "book",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*map",
+            "substitution": "book",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*shulker.*",
+            "substitution": "shulker_box",
+            "matchAll": true,
+            "validate": false
+          }
+        ]
+      }
+    },
+    "expect": "string",
+    "debug": true
+  }
+}

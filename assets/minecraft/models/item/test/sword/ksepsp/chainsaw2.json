@@ -1,0 +1,6 @@
+{
+  "parent": "item/test/sword/ksepsp/chainsaw",
+  "textures": {
+    "0": "item/swords/chainsaw"
+  }
+}

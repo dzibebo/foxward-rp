@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/food/sprites/iron_utug"
+        },
+        "when": [
+          "gui"
+
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/food/iron_utug"
+    },
+    "property": "minecraft:display_context"
+  }
+}

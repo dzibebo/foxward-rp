@@ -1,0 +1,115 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"texture": "textures/item/test/projectiles/rocket_bomb.png",
+	"models": [
+		{
+			"part": "back",
+			"id": "back",
+			"invertAxis": "xy",
+			"translate": [0, -3.5, -7],
+			"rotate": [135, -90, 0],
+			"animations": [
+				{
+					"this.rx": 0,
+					"this.ry": 0,
+					"this.sy": 1.25,
+					"this.sz": 1.25,
+					"this.ty": 4.375,
+					"this.tz": -8.75
+				}
+			]
+		},
+		{
+			"part": "cross_1",
+			"id": "cross_1",
+			"invertAxis": "xy",
+			"translate": [0, -3.5, 1],
+			"rotate": [135, -90, 0],
+			"submodels": [
+				{
+					"id": "rocket",
+					"invertAxis": "xy",
+					"translate": [0, 3, -2],
+					"rotate": [0, 0, 90],
+					"boxes": [
+						{
+							"coordinates": [-4, -7, -4, 8, 12, 8],
+							"uvNorth": [16, 7, 24, 19],
+							"uvEast": [16, 19, 24, 31],
+							"uvSouth": [0, 21, 8, 33],
+							"uvWest": [8, 21, 16, 33],
+							"uvUp": [32, 15, 24, 7],
+							"uvDown": [32, 15, 24, 23]
+						},
+						{
+							"coordinates": [-2, -8, -2, 4, 1, 4],
+							"uvNorth": [36, 11, 32, 12],
+							"uvEast": [36, 12, 32, 13],
+							"uvSouth": [36, 13, 32, 14],
+							"uvWest": [36, 14, 32, 15]
+						},
+						{
+							"coordinates": [-2, -7, -2, 4, -1, 4],
+							"uvNorth": [36, 11, 32, 12],
+							"uvEast": [36, 12, 32, 13],
+							"uvSouth": [36, 13, 32, 14],
+							"uvWest": [36, 14, 32, 15]
+						},
+						{
+							"coordinates": [0, -9, -8, 0, 7, 16],
+							"uvNorth": [0, 0, 0, 7],
+							"uvEast": [0, 0, 16, 7],
+							"uvSouth": [0, 0, 0, 7],
+							"uvWest": [0, 7, 16, 14],
+							"uvUp": [0, 16, 0, 0],
+							"uvDown": [0, 0, 0, 16]
+						},
+						{
+							"coordinates": [-8, -9, 0, 16, 7, 0],
+							"uvNorth": [0, 14, 16, 21],
+							"uvEast": [0, 0, 0, 7],
+							"uvSouth": [16, 0, 32, 7],
+							"uvWest": [0, 0, 0, 7],
+							"uvUp": [16, 0, 0, 0],
+							"uvDown": [16, 0, 0, 0]
+						},
+						{
+							"coordinates": [-3, 5, -3, 6, 5, 6],
+							"uvNorth": [30, 23, 36, 28],
+							"uvEast": [30, 28, 36, 33],
+							"uvSouth": [16, 31, 22, 36],
+							"uvWest": [32, 0, 38, 5],
+							"uvUp": [30, 29, 24, 23],
+							"uvDown": [30, 29, 24, 35]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0,
+					"this.ry": 0,
+					"var.xz": "sqrt(pow(abs(player_pos_x-pos_x), 2) + pow(abs(player_pos_z-pos_z), 2))",
+					"var.xyz": "sqrt(pow(var.xz, 2)+ pow(abs(player_pos_y-pos_y), 2))*0.5",
+					"rocket.sy": "max(var.xyz, 0.5)",
+					"rocket.sz": "max(var.xyz, 0.5)",
+					"rocket.sx": "max(var.xyz, 0.5)"
+				}
+			]
+		},
+		{
+			"part": "cross_2",
+			"id": "cross_2",
+			"invertAxis": "xy",
+			"translate": [0, -3.5, 4],
+			"rotate": [45, -90, 0],
+			"animations": [
+				{
+					"this.rx": 0,
+					"this.ry": 0
+				}
+			]
+		}
+	]
+}

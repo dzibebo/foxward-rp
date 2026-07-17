@@ -1,0 +1,17 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "netherite/military_form"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "netherite/military_form"
+            }
+        ],
+        "humanoid_baby": [
+            {
+                "texture": "netherite/military_form"
+            }
+        ]}}

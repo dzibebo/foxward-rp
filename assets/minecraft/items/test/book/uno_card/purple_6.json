@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/book/card/sprites/purple_6"
+        },
+        "when": [
+          "gui"
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/book/uno_card/unknown_uno_card"
+        },
+        "when": [
+          "ground",
+          "thirdperson_righthand",
+          "thirdperson_lefthand"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/book/uno_card/purple_6"
+    },
+    "property": "minecraft:display_context"
+  }
+}

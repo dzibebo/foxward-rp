@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+          "layer0": "item/test/leather_leggings/military_form",
+"layer1": "item/test/leather_leggings/military_form_overlay",
+    "particle": "item/test/leather_leggings/military_form"}
+
+
+}

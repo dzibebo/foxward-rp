@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/test/chestplate/bdsm_handcuffs",
+    "layer1": "item/test/chestplate/bdsm_handcuffs_overlay"
+  }
+}

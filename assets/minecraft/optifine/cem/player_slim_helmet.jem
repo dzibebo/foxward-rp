@@ -1,0 +1,213 @@
+{
+	"credit": "IK Handcuffs System",
+	"textureSize": [1024, 512],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 24, -4, 8, 8, 8],
+					"uvNorth": [128, 128, 256, 256],
+					"uvEast": [0, 128, 128, 256],
+					"uvSouth": [384, 128, 512, 256],
+					"uvWest": [256, 128, 384, 256],
+					"uvUp": [256, 128, 128, 0],
+					"uvDown": [384, 0, 256, 128],
+					"sizeAdd": 0.75
+				},
+				{
+					"coordinates": [-4, 24, -4, 8, 8, 8],
+					"uvNorth": [640, 128, 768, 256],
+					"uvEast": [512, 128, 640, 256],
+					"uvSouth": [896, 128, 1024, 256],
+					"uvWest": [768, 128, 896, 256],
+					"uvUp": [768, 128, 640, 0],
+					"uvDown": [896, 0, 768, 128],
+					"sizeAdd": 1
+				}
+			],
+			"submodels": [
+				{
+					"id": "trash",
+					"invertAxis": "xy",
+					"translate": [0, 32.75, 0],
+					"boxes": [
+						{
+							"coordinates": [-5, -1, -5, 10, 2, 10],
+							"uvNorth": [41, 44, 51, 46],
+							"uvEast": [41, 46, 51, 48],
+							"uvSouth": [41, 48, 51, 50],
+							"uvWest": [42, 28, 52, 30],
+							"uvUp": [35, 29, 25, 19],
+							"uvDown": [42, 29, 32, 39]
+						}
+					],
+					"submodels": [
+						{
+							"id": "bone",
+							"invertAxis": "xy",
+							"translate": [0, 1, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, 1, -0.5, 2, -1, 1],
+									"uvNorth": [39, 28, 41, 29],
+									"uvEast": [13, 40, 14, 41],
+									"uvSouth": [26, 55, 28, 56],
+									"uvWest": [34, 18, 35, 19],
+									"uvUp": [50, 34, 48, 33],
+									"uvDown": [50, 34, 48, 35]
+								},
+								{
+									"coordinates": [-2, 0, -0.5, 4, 2, 1],
+									"uvNorth": [44, 53, 48, 55],
+									"uvEast": [45, 55, 46, 57],
+									"uvSouth": [0, 54, 4, 56],
+									"uvWest": [46, 55, 47, 57],
+									"uvUp": [50, 28, 46, 27],
+									"uvDown": [52, 13, 48, 14]
+								}
+							]
+						},
+						{
+							"id": "bone2",
+							"invertAxis": "xy",
+							"translate": [0, -0.5, 0],
+							"boxes": [
+								{
+									"coordinates": [-7, -2.25, -7, 14, 2, 14],
+									"uvNorth": [41, 16, 55, 18],
+									"uvEast": [41, 18, 55, 20],
+									"uvSouth": [41, 20, 55, 22],
+									"uvWest": [22, 48, 36, 50],
+									"uvUp": [14, 21, 0, 7],
+									"uvDown": [14, 21, 0, 35]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "test",
+					"invertAxis": "xy",
+					"translate": [0, 33, 0],
+					"submodels": [
+						{
+							"id": "b",
+							"invertAxis": "xy",
+							"translate": [0, 3, 0],
+							"boxes": [
+								{
+									"coordinates": [-3, 0, -2, 6, 6, 4],
+									"uvNorth": [63, 16, 69, 22],
+									"uvEast": [69, 16, 73, 22],
+									"uvSouth": [71, 8, 77, 14],
+									"uvWest": [73, 14, 77, 20],
+									"uvUp": [79, 24, 73, 20],
+									"uvDown": [69, 22, 63, 26]
+								}
+							],
+							"submodels": [
+								{
+									"id": "h",
+									"invertAxis": "xy",
+									"translate": [0, 6, 0.75],
+									"boxes": [
+										{
+											"coordinates": [-4, 0, -5, 8, 8, 8],
+											"uvNorth": [55, 0, 63, 8],
+											"uvEast": [55, 8, 63, 16],
+											"uvSouth": [63, 0, 71, 8],
+											"uvWest": [63, 8, 71, 16],
+											"uvUp": [63, 24, 55, 16],
+											"uvDown": [79, 0, 71, 8]
+										}
+									]
+								},
+								{
+									"id": "la",
+									"invertAxis": "xy",
+									"translate": [-3, 5, 0],
+									"boxes": [
+										{
+											"coordinates": [-2, -5, -1.25, 2, 6, 2],
+											"uvNorth": [77, 8, 79, 14],
+											"uvEast": [69, 22, 71, 28],
+											"uvSouth": [77, 14, 79, 20],
+											"uvWest": [71, 22, 73, 28],
+											"uvUp": [73, 16, 71, 14],
+											"uvDown": [75, 24, 73, 26]
+										}
+									]
+								},
+								{
+									"id": "ra",
+									"invertAxis": "xy",
+									"translate": [3, 5, 0],
+									"boxes": [
+										{
+											"coordinates": [0, -5, -1.25, 2, 6, 2],
+											"uvNorth": [55, 24, 57, 30],
+											"uvEast": [79, 0, 81, 6],
+											"uvSouth": [57, 24, 59, 30],
+											"uvWest": [59, 24, 61, 30],
+											"uvUp": [81, 20, 79, 18],
+											"uvDown": [77, 24, 75, 26]
+										}
+									]
+								}
+							]
+						}
+					],
+					"boxes": [
+						{
+							"coordinates": [-1, -1, -1, 2, 4, 2],
+							"uvNorth": [61, 24, 63, 28],
+							"uvEast": [79, 6, 81, 10],
+							"uvSouth": [79, 10, 81, 14],
+							"uvWest": [79, 14, 81, 18],
+							"uvUp": [81, 22, 79, 20],
+							"uvDown": [79, 24, 77, 26]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"trash.ty": "if(is_sneaking, -28, -32)",
+					"trash.sy": "if(is_sneaking, 5, 1)",
+					"bone.sy": "if(is_sneaking, 0.2, 1)",
+					"bone2.sy": "if(is_sneaking, 0.2, 1)",
+					"var.dt": "clamp(frame_time, 0.001, 0.05)",
+					"var.target_lean": "clamp(-move_forward * torad(45), -torad(45), torad(45))",
+					"var.lean_vel": "var.lean_vel + (var.target_lean - var.lean) * 250 * var.dt - var.lean_vel * 12 * var.dt",
+					"var.lean": "var.lean + var.lean_vel * var.dt",
+					"test.rx": "var.lean/2",
+					"var.target_lean2": "clamp(move_strafing * torad(45), -torad(45), torad(45))",
+					"var.lean_vel2": "var.lean_vel2 + (var.target_lean2 - var.lean2) * 250 * var.dt - var.lean_vel2 * 12 * var.dt",
+					"var.lean2": "var.lean2 + var.lean_vel2 * var.dt",
+					"test.rz": "var.lean2/2",
+					"la.rz": "-var.lean2/5",
+					"la.rx": "-var.lean/5",
+					"ra.rz": "-var.lean2/5",
+					"ra.rx": "-var.lean/5",
+					"h.rz": "var.lean2/2",
+					"h.rx": "var.lean/2",
+					"b.rz": "var.lean2/5",
+					"b.rx": "var.lean/5",
+					"var.vel_y": "if(varb.initialized, (pos_y - var.prev_pos_y) / var.dt, 0)",
+					"varb.jump_start": "varb.prev_on_ground && !is_on_ground && var.vel_y > 0.05",
+					"varb.landed": "!varb.prev_on_ground && is_on_ground",
+					"var.squash_vel": "var.squash_vel + (0 - var.squash) * 200 * var.dt - var.squash_vel * 10 * var.dt + if(varb.jump_start, 6, 0) - if(varb.landed, clamp(abs(var.vel_y) * 0.6, 1, 6), 0)",
+					"var.squash": "var.squash + var.squash_vel * var.dt",
+					"test.sy": "1 + var.squash",
+					"var.prev_pos_y": "pos_y",
+					"varb.prev_on_ground": "is_on_ground",
+					"varb.initialized": "true"
+				}
+			]
+		}
+	]
+}

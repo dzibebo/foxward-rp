@@ -1,0 +1,13 @@
+{
+    "layers": {
+        "humanoid": [
+            {"dyeable": {
+                "color_when_undyed": 15962585
+            },
+                "texture": "chestplate/bdsm_handcuffs"
+            },
+            {  "texture": "chestplate/bdsm_handcuffs_overlay"}
+        ]
+
+
+    }}

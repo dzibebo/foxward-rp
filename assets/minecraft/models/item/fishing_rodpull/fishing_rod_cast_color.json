@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/fishing_rod",
-  "textures": {
-    "layer0": "item/fishing_rodpull/fishing_rod_cast_color",
-	    "layer1": "item/fishing_rodpull/fishing_rod_cast_color_1"
-
-  }
-}

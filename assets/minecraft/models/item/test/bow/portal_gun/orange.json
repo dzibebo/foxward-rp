@@ -1,0 +1,6 @@
+{
+	"parent": "item/test/bow/portal_gun/default",
+	"textures": {
+		"2": "item/test/bow/portal_gun_orange"
+	}
+}

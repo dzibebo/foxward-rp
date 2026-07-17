@@ -1,0 +1,68 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/bow/dblbarrel/dblbarrel_water_chargered"
+        },
+        "when": "arrow"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/bow/dblbarrel/dblbarrel_water_chargered"
+        },
+        "when": "rocket"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "item/test/bow/dblbarrel/dblbarrel_water"
+      },
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "entries": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "item/test/bow/dblbarrel/dblbarrel_water_1"
+            },
+            "threshold": 0.10
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "item/test/bow/dblbarrel/dblbarrel_water_2"
+            },
+            "threshold": 0.25
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "item/test/bow/dblbarrel/dblbarrel_water_3"
+            },
+            "threshold": 0.67
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "item/test/bow/dblbarrel/dblbarrel_water_4"
+            },
+            "threshold": 1.0
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "item/test/bow/dblbarrel/dblbarrel_water_0"
+        },
+        "property": "minecraft:crossbow/pull"
+      },
+      "property": "minecraft:using_item"
+    },
+    "property": "minecraft:charge_type"
+  }
+}

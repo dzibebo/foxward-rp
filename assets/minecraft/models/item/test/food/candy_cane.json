@@ -1,0 +1,84 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/test/food/candy_cane",
+		"particle": "item/test/food/candy_cane"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 9],
+			"to": [9, 16, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"east": {"uv": [2, 0, 4, 16], "texture": "#0"},
+				"south": {"uv": [4, 0, 6, 16], "texture": "#0"},
+				"west": {"uv": [6, 0, 8, 16], "texture": "#0"},
+				"up": {"uv": [10, 14, 8, 12], "texture": "#0"},
+				"down": {"uv": [14, 8, 12, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 14, 5],
+			"to": [9, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 13, 9]},
+			"faces": {
+				"north": {"uv": [10, 12, 12, 14], "texture": "#0"},
+				"east": {"uv": [8, 0, 12, 2], "texture": "#0"},
+				"south": {"uv": [12, 10, 14, 12], "texture": "#0"},
+				"west": {"uv": [8, 2, 12, 4], "texture": "#0"},
+				"up": {"uv": [10, 8, 8, 4], "texture": "#0"},
+				"down": {"uv": [10, 8, 8, 12], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 10, 5],
+			"to": [9, 14, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 11, 9]},
+			"faces": {
+				"north": {"uv": [10, 4, 12, 8], "texture": "#0"},
+				"east": {"uv": [10, 8, 12, 12], "texture": "#0"},
+				"south": {"uv": [12, 0, 14, 4], "texture": "#0"},
+				"west": {"uv": [12, 4, 14, 8], "texture": "#0"},
+				"up": {"uv": [14, 14, 12, 12], "texture": "#0"},
+				"down": {"uv": [16, 0, 14, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-0.25, 1.5, -1.25],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-0.25, 1.5, -1.25],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-6.41, 5.66, -10.25],
+			"translation": [0, 2.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-6.41, 5.66, -10.25],
+			"translation": [0, 2.5, 0]
+		},
+		"ground": {
+			"rotation": [0, 0, 90]
+		},
+		"gui": {
+			"rotation": [-131.11, -37.55, -149.06],
+			"translation": [0, -1.25, 0],
+			"scale": [1.00391, 1.00391, 1.00391]
+		},
+		"head": {
+			"rotation": [-146.88, -14.74, -33.69],
+			"translation": [-6.5, -0.25, -5.25],
+			"scale": [1.55078, 1.55078, 1.55078]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

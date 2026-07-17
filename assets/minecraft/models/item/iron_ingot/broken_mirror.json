@@ -1,8 +1,0 @@
-{
-	"parent": "item/iron_ingot/mirror",
-	"texture_size": [32, 32],
-	"textures": {
-		"0": "item/iron_ingot/broken_mirror",
-		"particle": "item/iron_ingot/broken_mirror"
-	}
-}

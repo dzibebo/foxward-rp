@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "item/test/book/default_book/default_book_opened"
+  }
+}

@@ -1,0 +1,185 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [3, -23, 0.25],
+			"rotate": [180, 0, -180],
+			"boxes": [
+				{
+					"coordinates": [-6, 4, -1.9, 10, 20, 2],
+					"uvNorth": [36, 2, 46, 22],
+					"uvEast": [34, 2, 36, 22],
+					"uvSouth": [24, 2, 34, 22],
+					"uvWest": [22, 2, 24, 22],
+					"uvUp": [24, 0, 34, 2],
+					"uvDown": [34, 2, 44, 0]
+				}
+			],
+			"submodels": [
+				{
+					"id": "butilka",
+					"invertAxis": "xy",
+					"translate": [0.5, 17.16667, -4],
+					"boxes": [
+						{
+							"coordinates": [-2, -3.16667, -2, 4, 8, 4],
+							"uvNorth": [0, 0, 0.25, 0.5],
+							"uvEast": [0.25, 0, 0.5, 0.5],
+							"uvSouth": [0.5, 0, 0.75, 0.5],
+							"uvWest": [0.75, 0, 1, 0.5],
+							"uvUp": [0.3125, 0.5, 0.5625, 0.75],
+							"uvDown": [0, 0.5, 0.25, 0.75]
+						}
+					],
+					"submodels": [
+						{
+							"id": "mocha",
+							"invertAxis": "xy",
+							"translate": [0, -3.16667, 0],
+							"boxes": [
+								{
+									"coordinates": [-0.75, -9, -0.75, 1.5, 9, 1.5],
+									"uvNorth": [0.25, 31.4375, 0.375, 32],
+									"uvEast": [0.125, 31.4375, 0.25, 32],
+									"uvSouth": [0, 31.4375, 0.125, 32],
+									"uvWest": [0.375, 31.4375, 0.5, 32],
+									"uvUp": [0, 31.375, 0.125, 31.5],
+									"uvDown": [0.25, 31.3125, 0.375, 31.4375]
+								}
+							]
+						},
+						{
+							"id": "krishko",
+							"invertAxis": "xy",
+							"translate": [0, -3.66667, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, -0.5, -1, 2, 1, 2],
+									"uvNorth": [0, 0.75, 0.125, 0.8125],
+									"uvEast": [0, 0.8125, 0.125, 0.875],
+									"uvSouth": [0.125, 0.75, 0.25, 0.8125],
+									"uvWest": [0.125, 0.8125, 0.25, 0.875],
+									"uvUp": [0.375, 0.75, 0.5, 0.875],
+									"uvDown": [0.375, 0.75, 0.5, 0.875]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"mocha.ty": "-4.75",
+					"butilka.rz": "left_wing.rz-torad(180)",
+					"krishko.ty": "if(is_on_ground, -5.25, sin(time/2.5)*2.5-11.5)",
+					"mocha.sy": "if(is_on_ground, 0, sin(time/2.5)/4-0.75)",
+					"krishko.rz": "if(is_on_ground, 0, sin(time/1)/2.5)"
+				}
+			]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-3, -23, 0.25],
+			"rotate": [180, 0, -180],
+			"boxes": [
+				{
+					"coordinates": [-4, 4, -1.9, 10, 20, 2],
+					"uvNorth": [46, 2, 36, 22],
+					"uvEast": [24, 2, 22, 22],
+					"uvSouth": [34, 2, 24, 22],
+					"uvWest": [36, 2, 34, 22],
+					"uvUp": [34, 0, 24, 2],
+					"uvDown": [44, 2, 34, 0]
+				}
+			],
+			"submodels": [
+				{
+					"id": "right_wing_sub_0",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0]
+				},
+				{
+					"id": "butilka2",
+					"invertAxis": "xy",
+					"translate": [0, 17.16667, -4],
+					"boxes": [
+						{
+							"coordinates": [-1.5, -3.16667, -2, 4, 8, 4],
+							"uvNorth": [0, 0, 0.25, 0.5],
+							"uvEast": [0.25, 0, 0.5, 0.5],
+							"uvSouth": [0.5, 0, 0.75, 0.5],
+							"uvWest": [0.75, 0, 1, 0.5],
+							"uvUp": [0.3125, 0.5, 0.5625, 0.75],
+							"uvDown": [0, 0.5, 0.25, 0.75]
+						}
+					],
+					"submodels": [
+						{
+							"id": "mocha2",
+							"invertAxis": "xy",
+							"translate": [0.5, -3.16667, 0],
+							"boxes": [
+								{
+									"coordinates": [-0.75, -9, -0.75, 1.5, 9, 1.5],
+									"uvNorth": [0.25, 31.4375, 0.375, 32],
+									"uvEast": [0.125, 31.4375, 0.25, 32],
+									"uvSouth": [0, 31.4375, 0.125, 32],
+									"uvWest": [0.375, 31.4375, 0.5, 32],
+									"uvUp": [0, 31.375, 0.125, 31.5],
+									"uvDown": [0.25, 31.3125, 0.375, 31.4375]
+								}
+							]
+						},
+						{
+							"id": "krishko2",
+							"invertAxis": "xy",
+							"translate": [0.5, -3.66667, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, -0.5, -1, 2, 1, 2],
+									"uvNorth": [0, 0.75, 0.125, 0.8125],
+									"uvEast": [0, 0.8125, 0.125, 0.875],
+									"uvSouth": [0.125, 0.75, 0.25, 0.8125],
+									"uvWest": [0.125, 0.8125, 0.25, 0.875],
+									"uvUp": [0.375, 0.75, 0.5, 0.875],
+									"uvDown": [0.375, 0.75, 0.5, 0.875]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"mocha2.ty": "-4.75",
+					"butilka2.rz": "right_wing.rz-torad(180)",
+					"krishko2.ty": "if(is_on_ground, -5.25, sin(time/2.5)*2.5-11.5)",
+					"mocha2.sy": "if(is_on_ground, 0, sin(time/2.5)/4-0.75)",
+					"krishko2.rz": "if(is_on_ground, 0, -sin(time/1)/2.5)"
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, 0, 3],
+			"boxes": [
+				{"coordinates": [-4, 0, -5, 4, 12, 4], "textureOffset": [1, 3]},
+				{"coordinates": [0, 0, -5, 4, 12, 4], "textureOffset": [0, 1]},
+				{"coordinates": [4, 12, -5, 4, 12, 4], "textureOffset": [2, 1]},
+				{"coordinates": [-8, 12, -5, 4, 12, 4], "textureOffset": [2, 3]},
+				{"coordinates": [-4, 24, -7, 8, 8, 8], "textureOffset": [0, 0]},
+				{"coordinates": [-4, 12, -5, 8, 12, 4], "textureOffset": [1, 1]}
+			]
+		}
+	]
+}

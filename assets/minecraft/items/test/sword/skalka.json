@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/sword/sprites/skalka"
+        },
+        "when": [
+          "gui"
+
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/sword/skalka"
+    },
+    "property": "minecraft:display_context"
+  }
+}

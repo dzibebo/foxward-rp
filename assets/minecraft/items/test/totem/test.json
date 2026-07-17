@@ -1,0 +1,14 @@
+{
+"oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:model",
+    "model": "item/test/totem/test",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": -6265536
+      }
+    ]
+
+  }
+}

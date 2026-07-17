@@ -1,0 +1,400 @@
+
+{
+  "type": "component_format",
+  "items": [
+    "minecraft:wooden_sword",
+    "minecraft:raw_iron",
+    "minecraft:stick",
+    "minecraft:lead",
+    "minecraft:debug_stick",
+    "minecraft:writable_book",
+    "minecraft:firework_rocket",
+    "minecraft:candle",
+    "minecraft:white_candle",
+    "minecraft:orange_candle",
+    "minecraft:magenta_candle",
+    "minecraft:light_blue_candle",
+    "minecraft:yellow_candle",
+    "minecraft:lime_candle",
+    "minecraft:pink_candle",
+    "minecraft:gray_candle",
+    "minecraft:light_gray_candle",
+    "minecraft:cyan_candle",
+    "minecraft:purple_candle",
+    "minecraft:blue_candle",
+    "minecraft:brown_candle",
+    "minecraft:green_candle",
+    "minecraft:red_candle",
+    "minecraft:black_candle",
+    "minecraft:breeze_rod",
+    "minecraft:iron_ingot",
+    "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots",
+    "minecraft:netherite_helmet", "minecraft:netherite_chestplate", "minecraft:netherite_leggings", "minecraft:netherite_boots",
+    "minecraft:golden_helmet", "minecraft:golden_chestplate", "minecraft:golden_leggings", "minecraft:golden_boots",
+    "minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_leggings", "minecraft:leather_boots",
+    "minecraft:iron_helmet", "minecraft:iron_chestplate", "minecraft:iron_leggings", "minecraft:iron_boots",
+    "minecraft:chainmail_helmet", "minecraft:chainmail_chestplate", "minecraft:chainmail_leggings", "minecraft:chainmail_boots",
+    "minecraft:copper_helmet", "minecraft:copper_chestplate", "minecraft:copper_leggings", "minecraft:copper_boots",
+    "minecraft:white_harness",
+    "dragon_breath", "potion", "suspicious_stew","elytra", "totem_of_undying", "book", "lead",  "paper", "debug_stick"
+  ],
+  "modelPrefix": "item/test/",
+  "modelParent": "minecraft:item/generated",
+  "parameters": {
+    "format": "${type}/${itemname}",
+    "variables": {
+      "itemname": {
+        "componentType": "item_name",
+        "fallback": "none",
+        "transform": ["lowercase",
+          {
+            "regex": "(?iu)ё",
+            "substitution": "е",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)подкрыльники",
+            "substitution": "underwings",
+            "matchAll": true,
+            "validate": false
+          },{
+            "regex": "(?iu)лупа",
+            "substitution": "magnifying_glass",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)корсар",
+            "substitution": "firecracker",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)хлопушка",
+            "substitution": "firecrecker",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)пыхалка",
+            "substitution": "vape",
+            "matchAll": true,
+            "validate": false
+          },
+
+          {
+            "regex": "(?iu)полицейская дубинка",
+            "substitution": "dubinka",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)разводной ключ",
+            "substitution": "pipewrench",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)зонт",
+            "substitution": "umbrella",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)свернутый зонт",
+            "substitution": "rolled_up_umbrella",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)чертеж",
+            "substitution": "blueprint",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)отталкивающая дубинка",
+            "substitution": "dubinka_knockback",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)наручники",
+            "substitution": "handcuffs",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)бдсм наручники",
+            "substitution": "bdsm_handcuffs",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)рзк",
+            "substitution": "rzk",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)вакцина",
+            "substitution": "vaccine",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)не приготовленная похлебка-антидот",
+            "substitution": "unfinished_chowder",
+            "matchAll": true,
+            "validate": false
+          },
+
+          {
+            "regex": "(?iu)похлебка-антидот",
+            "substitution": "chowder",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)антитело",
+            "substitution": "antibody",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)шприц",
+            "substitution": "syringe",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)чертеж",
+            "substitution": "blueprint",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)свернутый чертеж",
+            "substitution": "rollup_blueprint",
+            "matchAll": true,
+            "validate": false
+          }
+        ]
+      },
+
+      "type": {
+        "property": "item_type",
+        "transform": [
+          "discard_namespace",
+          {
+            "regex": "(?iu)crossbow",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)axe",
+            "substitution": "ost",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*sword",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*ingot",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)planks",
+            "substitution": "ost",
+            "matchAll": false,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*planks",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*bundle",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*arrow",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)raw.*",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)snowball",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)egg",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)ender_pearl",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)eye_of_ender",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)firework_rocket",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)fire_charge",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)wind_charge",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*book",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)mace",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*pickaxe",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*shovel",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*lantern",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*hoe",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)goat_horn",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*pumpkin",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu).*apple",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },{
+            "regex": "(?iu)copper_leggings",
+            "substitution": "underwings",
+            "matchAll": true,
+            "validate": false
+          },
+          {
+            "regex": "(?iu)totem_of_undying",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },{
+            "regex": "(?iu).*potion.*",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },{
+            "regex": "(?iu)suspicious_stew",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },{
+            "regex": "(?iu)iron_ingot",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },{
+            "regex": "(?iu)dragon_breath",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },{
+            "regex": "(?iu).*rod",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },{
+            "regex": "(?iu).*stick",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },{
+            "regex": "(?iu).*candle",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },{
+            "regex": "(?iu)lead",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          },{
+            "regex": "(?iu)paper",
+            "substitution": "ost",
+            "matchAll": true,
+            "validate": false
+          }
+        ]
+    }}
+  }
+}
+

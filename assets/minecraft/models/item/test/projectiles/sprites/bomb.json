@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+          "layer0": "item/test/projectiles/sprites/bomb",
+    "particle": "item/test/projectiles/boom_particle"}
+
+
+}

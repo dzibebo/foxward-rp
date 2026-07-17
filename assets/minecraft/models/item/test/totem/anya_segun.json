@@ -1,0 +1,6 @@
+{
+"parent":"item/source_models/totem_slim",
+"textures":{
+"1":"item/test/totem/anya_segun"
+}
+}

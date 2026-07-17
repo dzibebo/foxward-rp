@@ -1,0 +1,7 @@
+{
+	"parent": "item/test/templates/poleno",
+	"textures": {
+		"layer0": "item/test/planks/warped_stem",
+		"particle": "item/test/planks/warped_log"
+	}
+}

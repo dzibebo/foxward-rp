@@ -1,0 +1,88 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"texture": "chet.png",
+	"models": [
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [-8, 0, -8],
+			"rotate": [-180, 0, 0],
+			"boxes": [
+				{"coordinates": [-6, -14, 9, 12, 14, 14], "textureOffset": [0, 0]}
+			],
+			"animations": [
+				{
+					"var.dis": "sqrt(pow(abs(player_pos_x-pos_x), 2)+pow(abs(player_pos_z-pos_z), 2)+pow(abs(player_pos_y-pos_y), 2))",
+					"this.rx": 0,
+					"knob.rz": "torad(90)",
+					"knob.rx": "knob.rx",
+					"knob.tz": "14",
+					"knob.ty": "7",
+					"knob.tx": "3",
+					"knob_1.rz": "knob.rx",
+					"knob_2.rz": "if(var.dis>5, sin(frame_counter/100*1.5)*0.4+cos(3.7*frame_counter/100)*0.34+sin(7.1*frame_counter/100)*0.25, knob.rx)"
+				}
+			]
+		},
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [0, -12, 7],
+			"rotate": [-180, 0, 0],
+			"boxes": [
+				{"coordinates": [-6, 12, -9, 12, 10, 4], "textureOffset": [0, 28]}
+			],
+			"animations": [
+				{
+					"this.rx": 0,
+					"lid.rz": "torad(90)",
+					"lid.rx": "lid.rx",
+					"lid.tz": "14",
+					"lid.ty": "7",
+					"lid.tx": "3"
+				}
+			]
+		},
+		{
+			"part": "knob",
+			"id": "knob",
+			"invertAxis": "xy",
+			"translate": [2, -14, 7],
+			"rotate": [-180, 0, 0],
+			"submodels": [
+				{
+					"id": "knob_1",
+					"invertAxis": "xy",
+					"translate": [-2, 21, -5],
+					"boxes": [
+						{"coordinates": [-2, -2, -4.5, 4, 4, 5], "textureOffset": [32, 28]}
+					]
+				},
+				{
+					"id": "knob_2",
+					"invertAxis": "xy",
+					"translate": [-2, 21, -5.5],
+					"boxes": [
+						{"coordinates": [-1, -1, -4.5, 2, 2, 6], "textureOffset": [32, 37]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"var.dis": "sqrt(pow(abs(player_pos_x-pos_x), 2)+pow(abs(player_pos_z-pos_z), 2)+pow(abs(player_pos_y-pos_y), 2))",
+					"this.rx": 0,
+					"knob.rz": "torad(90)",
+					"knob.rx": "knob.rx",
+					"knob.tz": "14",
+					"knob.ty": "7",
+					"knob.tx": "3",
+					"knob_1.rz": "knob.rx",
+					"knob_2.rz": "lerp(0.15, knob_2.rz+45, knob_2.rz-45)"
+				}
+			]
+		}
+	]
+}

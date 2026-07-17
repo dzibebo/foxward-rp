@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/test/projectiles/sprites/bomb"
+        },
+        "when": [
+          "gui"
+
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/test/projectiles/bomb"
+    },
+    "property": "minecraft:display_context"
+  }
+}

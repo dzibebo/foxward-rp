@@ -1,0 +1,6 @@
+{
+	"parent": "item/test/hat/ksepsp/netherite_kupitman_nose",
+	"textures": {
+	  "1": "item/carved_pumpkin/kupitman_nose"
+	}
+  }

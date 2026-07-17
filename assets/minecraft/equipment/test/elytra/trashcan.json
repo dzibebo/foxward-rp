@@ -1,0 +1,15 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "chestplate/trashcan"
+            }
+        ],
+"wings": [
+            {
+                "texture": "chestplate/trashcan_wings"
+            }
+        ]
+
+
+    }}
