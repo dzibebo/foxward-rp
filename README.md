@@ -1,31 +1,38 @@
-[![Join Discord](https://img.shields.io/badge/discord-join-blue?logo=discord&style=for-the-badge)](https://foxward.com/discord)
-[![Telegram](https://img.shields.io/badge/Telegram-Join-blue?logo=telegram&logoColor=white&style=for-the-badge)](https://t.me/foxward_srv)  
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/SH8ykutRWOA?si=w4pE_DX8O4Z_tY4O&t=30)
-[![Website](https://img.shields.io/badge/Website-Visit-brightgreen?logo=google-chrome&logoColor=white&style=for-the-badge)](https://dzibebo.com)
+# foxward-rp
 
-<h1 align="center">🔥 Foxward RP 🚀</h1>
-
-**Салам пополам!** Ты наткнулся на исходник Foxward RP на версию 1.21.11 — хаб всякой фишки для нашего сервера: рп, инструменты для [депов](https://youtu.be/lfbU4Vo1H9M?si=11xxWy3CuGzQJJ0R) и прочий движ. Тут выкладывается всё, что помогает прокачивать проект и кайфовать от процесса и крокодила. Мы используем наработки ресурспака [KSEPSP v9 от Not_A_Whale](https://www.planetminecraft.com/texture-pack/ksepsp-v9-optifine-cit/)🍬 
-
-**🍷 [modrinth](https://modrinth.com/resourcepack/foxward-rp)**
+🍺 ресурспак, созданный специально для сервера foxward. | 🍹 a resource pack specially made for the foxward server.
 
 ---
 
-**❗Пожалуйста, при использовании ресурспака, его текстур и/или его моделей обязательно указывайте ссылку на оригинальный ресурспак и его авторов.**
+🍹 данный ресурспак сделан специально для сервера foxward.  
+🌺 в данной версии ресурспака вы найдёте множество предметов и моделей, которые сделают игру более комфортной и интересной.  
+📌 в данном ресурспаке используются модели из ksepsp. пожалуйста, при использовании ресурспака или его моделей обязательно указывайте ссылку на оригинальный ресурспак, сервер и всех его авторов.  
+❗ в данный момент переименования доступны только на русском языке.
 
 ---
 
-## 🎯 Что тут внутри
+🍷 this resource pack was specially made for the foxward server.  
+🍥 in this version, you'll find many custom items and models that make the game more comfortable and engaging.  
+🌼 this pack uses models from ksepsp. please, when using the resource pack or its models, always include a link to the original resource pack, server, and all its authors.  
+❗ renaming is currently available only in russian.
 
-- **RP-модули** (их нету просто)
-- Инструменты **для девелоперов**: от тестов до дебага и бага
-- **Читабл кейсы**, примеры, тикеты, баги, всё по кайфу и иди нахуй
-- Ресурспак **на новом** формате [Variants-CIT](https://modrinth.com/mod/variants-cit) — **Готово! 👍**
 ---
 
-## 🚦 Быстрый старт
+### ссылки / links
 
-```bash
-git clone https://github.com/Dzibebo/Foxward-RP.git
-cd Foxward-RP
-Дальше не придумали...
+* 📦 **modrinth:** [modrinth.com/resourcepack/foxward-rp](https://modrinth.com/resourcepack/foxward-rp)
+* 🌐 **сайт:** [foxward.com](https://foxward.com)
+* 💬 **discord:** [foxward.com/discord](https://foxward.com/discord)
+* 📢 **telegram:** [t.me/foxward_srv](https://t.me/foxward_srv)
+* 🎨 **ksepsp:** [planet minecraft](https://www.planetminecraft.com/texture-pack/ksepsp-v9-optifine-cit/)
+
+---
+
+### авторы / creators
+
+* **dzibebo** — ceo, assistant
+* **pablossska** — developer, creator, pixel-art artist
+
+---
+
+<img width="1920" height="1009" alt="65fd00ce5d9c6f32e98e061c5dcb24afaba8c137" src="https://github.com/user-attachments/assets/0fa8d74d-bddc-4795-a5ba-4918368c92da" />
