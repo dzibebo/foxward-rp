@@ -1,9 +1,9 @@
-# foxward-rp
-
-🍺 ресурспак, созданный специально для сервера foxward. | 🍹 a resource pack specially made for the foxward server.   
-
----    
+# foxward-rp 
     
+🍺 ресурспак, созданный специально для сервера foxward. | 🍹 a resource pack specially made for the foxward server.
+
+---      
+      
 🍹 данный ресурспак сделан специально для сервера foxward.  
 🌺 в данной версии ресурспака вы найдёте множество предметов и моделей, которые сделают игру более комфортной и интересной.  
 📌 в данном ресурспаке используются модели из ksepsp. пожалуйста, при использовании ресурспака или его моделей обязательно указывайте ссылку на оригинальный ресурспак, сервер и всех его авторов.  
@@ -23,7 +23,7 @@
 * 📦 **modrinth:** [modrinth.com/resourcepack/foxward-rp](https://modrinth.com/resourcepack/foxward-rp)
 * 🌐 **сайт:** [foxward.com](https://foxward.com)
 * 💬 **discord:** [foxward.com/discord](https://foxward.com/discord)
-* 📢 **telegram:** [t.me/foxward_srv](https://t.me/foxward_srv)
+* 📢 **telegram:** [t.me/foxward_srv](https://t.me/foxward_srv) 
 * 🎨 **ksepsp:** [planet minecraft](https://www.planetminecraft.com/texture-pack/ksepsp-v9-optifine-cit/)
 
 ---
